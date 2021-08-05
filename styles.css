@@ -16,18 +16,18 @@ body {
 
 .page {
     margin: 30px;
+    width: 60em;
 }
 .sidebar {
     color: #444444;
 }
 
 .footer {
-
+    color: #444444;
 }
 
 .content {
     padding: 0px 30px;
-
 }
 
 ul {
