@@ -1,7 +1,7 @@
 body {
     color: #555555;
     background-color: #EEEEEE;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Catamaran', sans-serif;
     font-size: 14px;
 }
 
@@ -10,7 +10,8 @@ ul {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding-top: 14px;
 }
 
 h3 {
