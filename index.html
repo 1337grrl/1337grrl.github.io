@@ -1,119 +1,375 @@
-<DOCTYPE! html>
-<html lang='en'>
-    <head>
-        <meta charset='UTF-8'/>
-        <title>1337grrl | Tales of Software Engineering</title>
-        <link rel='stylesheet' href='styles.css'/>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <div class='page'>
-            <div class='sidebar'>
+<!DOCTYPE html>
+<html lang="en">
 
-            </div>
-            <div class='footer'>
-                
-            </div>
-            <div class='content'>
-                <div>
-                    <h1>Silja Rheingans</h1>
-                    <h3>Software Engineer | Tender Techie</h3>
-                    <div style='padding-top: 1px;'></div>
-                    <p>As a graduating software engineer with a background in agile project management and a degree in media science, I combine a variety of skills and interests with a unique cross-over between technology and humanities. I enjoy writing code - especially in functional languages - that is solid, clear and elegant, while striving for a humane factor in my program designs. I'm mesmerized by the very technical as well as the very theoretical ends of the computer science spectrum, and I am on the lookout for opportunities to invest my talents while living up to our social responsabilities.</p> 
-                </div>
-                <div>
-                    <h3>I shine at ::</h3>
-                    <div>
-                        <ul>
-                            <li>Being enthusiastic about code and eager to learn to become an exceptional programmer</li> 
-                            <li>Understanding and building patterns and systems</li> 
-                            <li>Functional, analytical and highly abstract thinking while keeping a creative mindset</li> 
-                            <li>Identifying and capturing key details in complex contexts</li>
-                            <li>Adapting to dynamic work environments</li> 
-                            <li>Chaos-resistance with clean and structured work flows</li> 
-                            <li>Being outgoing, passionate and cheerfully nerdy -  I am a nice person!</li> 
-                        </ul>            
-                    </div>
-                </div>
-                <div>
-                    <h3>Experience ::</h3>
-                    <div>
-                        <p><strong>codewerk</strong><br>
-                            Software Developer Industry communication & Embedded Systems<br>
-                            since 2021</p>
-                        <p><strong>German Game Awards</strong><br>
-                            Project Management Award Comittee<br>
-                            supervising the submission process  |  supervising the examination team for submitted games  |  coordinating the game presentation before the jury  |  contact person for nominees<br>
-                            2014-2019 in varying positions</p>
-                        <p><strong>Intel Developer Zone / Microsoft Digital Eatery</strong><br>
-                            Event Host<br>
-                            2015-2018</p>
-                        <p><strong>Booster Space for #gamesweekberlin</strong><br>Organizer of People and Things (Project & Event Management)<br>2014-2019 in varying positions</p>            
-                        <p><strong>ELEKTROCOUTURE</strong><br>
-                            Working Student Creative Technology & Electrical Engineering<br>
-                            2018</p>
-                    </div>
-                    <div>
-                        <p><strong>Unterhaltungssoftware Selbstkontrolle</strong><br>
-                            Game Tester<br>
-                            2015-2017</p>
-                        <p><strong>Indie Arena Booth</strong><br>
-                            Special Forces: Communications<br>
-                            2015</p>
-                        <p><strong>University Potsdam</strong><br>
-                            Teaching Assistant Game Studies<br>
-                            2012-2016</p>            
-                    </div>
-                </div>
-                <div>
-                    <h3>Skills ::</h3>
-                    <div>
-                        <p><strong>Languages</strong><br>
-                            C/C++ (intermediate) | Go (beginner) | Rust (beginner) | Ada (beginner)<br>
-                            Haskell (personal favorite)<br>
-                            Python (intermediate) | JavaScript (intermediate)</p>
-                        <p><strong>Software</strong><br>
-                            Visual Studio/Code | Yakindu | Uppaal | UML<br>
-                            Windows | Linux Ubuntu<br>
-                            Git | GitLab | Command Line |<br>
-                            Unreal Engine | Unity3D | Trello | Basecamp |<br>
-                            Microsoft Office | Google Workspace<br>
-                            </p>
-                        <p><strong>Hardware</strong><br>
-                            Gaming Hardware & Periphery | Breadboard, LED & Arduino</p>
-                        <p><strong>Theoretical Basis</strong><br>
-                            Software Engineering Fundamentals | Software Testing | Embedded Systems | Networking Protocols<br>
-                            Concurrency Theory | Formal Languages, Automata and Logic | Software Verification | Type Theory<br>
-                            Game Studies | Media Science</p>
-                        <p><strong>People Skills</strong><br>
-                            Project Management (mostly agile) | Client Relations | Networking | Team Player</p>
-                        <p><strong>Spoken Languages</strong><br>
-                            English (C1-certified) | German (native) | French (beginner)</p>
-                    </div>
-                </div>
-                <div>
-                    <h3>Education ::</h3>
-                    <div>
-                        <p><strong>Computer Science B.Sc.</strong><br> 
-                            Technische Universität Berlin<br>
-                            2016-2021<br>
-                            Final grade pending</p>
-                        <p><strong>European Media Science B.A.</strong><br>
-                            Universität Potsdam<br>
-                            2011-2015<br>
-                            Final grade: 1,3</p>
-                    </div>
-                </div>
-                <div>
-                    <h3>Personal Interests ::</h3>
-                    <p>Games | Biology | Singing | Baking & Cooking | Fashion | Feminism</p>
-                </div>
-                <div> 
-                    <h3>Top5 of all-time-favorite games (in no particular order)::</h3>
-                    <p>Civilization series | Don't Starve: Shipwrecked | Doom (2016) | Human Resource Machine | Fez |  Bonus: Day of the Tentacle</p>
-            </div>
-        </div>
-    </body>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+    <title>1337grrl | Games and Software Engineering</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<!--Header(start)-->
+	<table id="header" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="#FBD2D7">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td>
+							
+
+						</td>
+
+						<td>
+							<font face="Catamaran" size="6" color="#082641">
+								<b>Silja Rheingans</b>
+							</font>
+						</td>
+
+						<td>
+							<a href="#about" style="text-decoration:none">
+								<font face="Catamaran" size="5" color="#082641">
+									About
+								</font>
+							</a>
+						</td>
+
+						<td>
+							<a href="#projects" style="text-decoration:none">
+								<font face="Catamaran" size="5" color="#082641">
+									Projects
+								</font>
+							</a>
+						</td>
+
+						<td>
+							<a href="#resume" style="text-decoration:none">
+								<font face="Catamaran" size="5" color="#082641">
+									Resume
+								</font>
+							</a>
+						</td>
+
+                        <td>
+							<a href="#Top5" style="text-decoration:none">
+								<font face="Catamaran" size="5" color="#082641">
+									Top5 favorite Games
+								</font>
+							</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Header(end)-->
+
+	<!--About(start)-->
+	<table id="about" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="#082641">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center"
+							valign="middle" colspan="2">
+							<font face="Catamaran" size="7"
+								color="#FBD2D7">
+								About Me
+							</font>
+							<hr color="#FBD2D7" width="90">
+						</td>
+					</tr>
+
+					<tr>
+					<td width="60%">
+							<font face="Catamaran" size="4"
+								color="FBD2D7">
+                                Hey, I am Silja, I am a computer scientist/game programmer and a tender techie.<br>
+                                I love all things tech, games and food-related.<br>
+                                On this page you can have a look at a few passion projects I recently started, like a MiniGamesCollection in C++. <br>
+                                You can also find some info on my professional experience (Spoiler: I have not always been a programmer) and on my Top5 all-time favorite games .<br>
+                                If you like what you see, or in desparate need of a games programmer, ping me on LinkedIn (link is in the footer).<br>
+								Cheers,
+								<br>
+								<b>Silja</b>
+							</font>
+						</td>
+						<td width="40%">
+							<img src="this_is_how_Silja_looks.jpg" width="50%" align="right">
+						</td>					</tr>
+				</table>
+				<hr color="082641">
+				<hr color="082641">
+				<hr color="082641">
+			</td>
+		</tr>
+	</table>
+	<!--About(end)-->
+
+
+	<!--Projects(start)-->
+	<table id="projects" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="082641">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center" valign="middle">
+							<font face="Catamaran" size="7" color="#FBD2D7">
+								Projects
+								<hr color="#FBD2D7" width="100">
+							</font>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<font face="Catamaran" size="4" color="FBD2D7">
+								<ul>
+									<li>
+                                        <a href="https://github.com/1337grrl/MiniGameCollection/tree/main/FlappyBird" target="_blank" style="color:#FBD2D7">
+                                            <b>MERCURIAL NEORNITHE</b>
+                                        </a>
+										
+										<ul>
+											<li>
+												March 2022 - Present.
+											</li>
+											<li>
+												A FlappyBird clone in C++ and SFML.Part of a MiniGamesCollection.
+											</li>
+										</ul>
+									</li>
+
+									<li>
+										<hr color="082641">
+										<hr color="082641">
+										<hr color="082641">
+                                        <a href="https://github.com/1337grrl/MiniGameCollection/tree/main/Pong" target="_blank" style="color:#FBD2D7">
+                                            <b>PONK</b>
+                                        </a>
+										<ul>
+											<li>
+												March 2022.
+											</li>
+											<li>
+												A Pong clone in C++ and SFML. Part of a MiniGamesCollection.
+											</li>
+											<hr color="082641">
+											<hr color="082641">
+											<hr color="082641">
+											<hr color="082641">
+											<hr color="082641">										
+                                        </ul>
+									</li>
+
+								</ul>
+
+							</font>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Procets(end)-->
+
+
+	<!--Resume(start)-->
+	<table id="resume" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="082641">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center" valign="middle">
+							<font face="Catamaran" size="7" color="#FBD2D7">
+								Professional Experience
+								<hr color="#FBD2D7" width="100">
+							</font>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<font face="Catamaran" size="4" color="FBD2D7">
+								<ul>
+									<li>
+										<b>codewerk</b>
+                                        <br>
+                                        October 2021 - Present
+                                        <br>
+                                        Software Developer Industry communication & Embedded Systems
+									</li>
+
+									<li>
+										<hr color="082641">
+										<hr color="082641">
+										<hr color="082641">
+										<b>German Game Awards</b>	
+                                        <br>			
+										Project Management Award Comittee
+                                        <br>
+                                        2014-2019 in varying positions
+									</li>
+									<li>
+										<hr color="082641">
+										<hr color="082641">
+										<hr color="082641">
+										<b>Booster Space for #gamesweekberlin</b>	
+                                        <br>			
+										Organizer of People and Things (Project & Event Management)
+                                        <br>
+                                        2014-2019 in varying positions
+									</li>
+									<li>
+										<hr color="082641">
+										<hr color="082641">
+										<hr color="082641">
+										<b>ELEKTROCOUTURE</b>	
+                                        <br>			
+										Working Student Creative Technology & Electrical Engineering
+                                        <br>
+                                        2018
+									</li>
+
+									<li>
+										<hr color="082641">
+										<hr color="082641">
+										<hr color="082641">
+										<b>Unterhaltungssoftware Selbstkontrolle</b>	
+                                        <br>			
+										Game Tester
+                                        <br>
+                                        2015-2017
+
+									</li>
+                                    
+                                    <li>
+										<hr color="082641">
+										<hr color="082641">
+										<hr color="082641">
+										<b>Indie Arena Booth</b>	
+                                        <br>			
+										Special Forces: Communication
+                                        <br>
+                                        2015
+									</li>
+
+								</ul>
+
+							</font>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Resume(end)-->
+
+	<!--Top5(start)-->
+	<table id="Top5" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="082641">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center" valign="middle">
+							<font face="Catamaran" size="7" color="#FBD2D7">
+								Top5 of all-time favorite games
+								<hr color="#FBD2D7" width="100">
+							</font>
+						</td>
+					</tr>
+
+					<tr>
+						<td>
+							<font face="Catamaran" size="4" color="FBD2D7">
+								<ul>
+									<li>
+										<b>Civilization series</b><br>
+                                        I. JUST. LOVE IT!!! I enjoy the atmosphere, the shere volume of different strategies I can pursue, the scaling, the exploration, ... <br>
+                                        It is just my favorite game and a form of meditation.
+									</li>
+                                    <li>
+										<b>Doom (2016)</b><br>
+										because it's the first FPS that really engaged my by its game design alone. Incredible game flow and really immersive, even for a person who is not invested in the genre.
+									</li>
+                                    <li>
+										<b>Human Resource Machine</b><br>
+                                        a blueprint for how wonderful serious and educational games could be if they dipped into their full potential. 
+									</li>
+                                    <li>
+										<b>Fez</b><br>
+                                        the game that got me re-connected to video games in general, and game programming in perticular. <br>
+                                        Hit just the right spot at the right time. 
+									</li>
+									<li>
+										<b>Don’t Starve: Shipwrecked</b><br>
+                                        Most favorite mobile experience. Not casual, still not yet too complex for short breaks to fill. <br>
+                                        Props for the UI.
+                                        <hr color="082641">
+										<hr color="082641">
+										<hr color="082641">
+                                    </li>
+
+								</ul>
+
+							</font>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Procets(end)-->
+
+
+	<!--Footer1(start)-->
+	<table id="footer" border="0" width="100%"
+		cellpadding="0" cellspacing="0" bgcolor="#FBD2D7">
+		<tr>
+			<td>
+				<table border="0" cellpadding="15"
+					cellspacing="0" width="90%" align="center" color="#082641">
+					<tr>
+						<td width="33%" valign="top">
+                            <font face="Catamaran" color="#082641">
+                                <a href="https://www.linkedin.com/in/silja-rheingans/" target="_blank" style="color:#082641;text-decoration:none">
+                                    <b>LinkedIn</b>
+                                </a>
+                            </font>
+						</td>
+
+						<td width="33%" valign="top">
+                            <font face="Catamaran" color="#082641">
+                                <a href="https://github.com/1337grrl" target="_blank" style="color:#082641;text-decoration:none">
+                                    <b>GitHub</b>
+                                </a>
+                            </font>
+						</td>						
+                        <td width="33%" valign="top">
+                            <font face="Catamaran" color="#082641">
+                                <b>Copyright © 2022 Silja Rheingans. All Rights Reserved.</b>
+                            </font>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+	<!--Footer1(end)-->
+
+</body>
+
 </html>
