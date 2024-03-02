@@ -1,17 +1,12 @@
-import Box from '@mui/material/Box';
-import './App.css'
-import Playground from './components/Playgound'
 
-function App() {
+import './App.css'
+import Playground from './components/Playground';
+
+const App = () => {
+
   return (
-    <>
-      <Box>
-          <Playground
-            code='This is a string.'
-          />
-        </Box>
-    </>
+    <h1>Hello World</h1>
   );
 }
 
-export default App
+export default App;
