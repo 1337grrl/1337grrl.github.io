@@ -20,32 +20,33 @@ export const theme = createTheme({
   typography: {
     fontFamily: [
       '"Merienda", cursive',
+      '"Arizonia", cursive',
       '"Marcellus", serif',
       '"Ojuju", sans-serif',
     ].join(','), // Example font family
     h1: {
-      fontFamily: '"Merienda", cursive',
+      fontFamily: '"Arizonia", cursive',
       fontSize: '3rem', // Example heading 1 font size
       fontWeight: 700, // Example heading 1 font weight
       marginBottom: '1rem', // Example heading 1 margin bottom
       color: '#1f293d',
     },
     h4: {
-      fontFamily: '"Merienda", cursive',
+      fontFamily: '"Arizonia", cursive',
       fontSize: '2.5rem', // Example heading 1 font size
       fontWeight: 700, // Example heading 1 font weight
       color: '#1f293d',
       marginBottom: '1rem', // Example heading 1 margin bottom
     },
     h5: {
-      fontFamily: '"Merienda", cursive',
+      fontFamily: '"Arizonia", cursive',
       fontSize: '2rem', // Example heading 1 font size
       fontWeight: 700, // Example heading 1 font weight
       color: '#1f293d',
       marginBottom: '1rem', // Example heading 1 margin bottom
     },
     h6: {
-      fontFamily: '"Merienda", cursive',
+      fontFamily: '"Arizonia", cursive',
       fontSize: '1.5rem', // Example heading 1 font size
       fontWeight: 700, // Example heading 1 font weight
       color: '#1f293d',
