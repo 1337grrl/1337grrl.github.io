@@ -25,7 +25,7 @@ export const theme = createTheme({
       '"Ojuju", sans-serif',
     ].join(','), // Example font family
     h1: {
-      fontFamily: '"Merienda", cursive',
+      fontFamily: '"Arizonia", cursive',
       fontSize: '3rem', // Example heading 1 font size
       fontWeight: 700, // Example heading 1 font weight
       marginBottom: '1rem', // Example heading 1 margin bottom
