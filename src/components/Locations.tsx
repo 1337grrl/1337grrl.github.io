@@ -54,7 +54,12 @@ const Locations: React.FC = () => {
                         lg: 'row',
                         xs: 'column',
                     },
-                    justifyContent: 'space-evenly', 
+                    justifyContent: {
+                        lg: 'space-evenly',
+                        xs: 'center',
+                    }, 
+                    alignItems: 'center',
+                    width: '100%'
                 }}
             >
                 {locations.map((location, index) => (
@@ -66,6 +71,9 @@ const Locations: React.FC = () => {
                             lg: '30%',
                             xs: '85%',
                                 },
+                            marginBottom: {
+                                xs: '2%',
+                            },
                             boxShadow: 15,
                             bgcolor: 'primary.main'
                         }}
@@ -98,29 +106,10 @@ const Locations: React.FC = () => {
                 sx={{
                     display: 'flex', 
                     flexDirection: 'column',
-                    justifyContent: 'space-evenly', 
+                    justifyContent: 'center', 
                     alignItems: 'center',
                 }}
             >
-                <Box
-                    sx={{
-                        width: {
-                            lg: '70%',
-                            xs: '85%',
-                                },
-                        height: 'auto',
-                        margin: '2.5%',               
-                    }}
-                >
-                    <img
-                        src='Locations/Ausflug_zum_Wannsee.png'
-                        style={{
-                            maxWidth: '100%', 
-                            height: 'auto'
-                        }}
-                    />
-                </Box>
-
                 <Box
                     sx={{
                         maxWidth: '95%',
