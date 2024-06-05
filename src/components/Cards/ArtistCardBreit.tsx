@@ -21,7 +21,7 @@ const ArtistCardBreit: React.FC<ArtistCardProps> = (props) : React.ReactElement 
             }}
         >
             <Box sx={{ 
-                width: '100%',
+                width: '90%',
                 }}
             >
                 <img src={artist.image} alt={artist.name} style={{width: '100%', height: 'auto'}}/>
@@ -41,7 +41,7 @@ const ArtistCardBreit: React.FC<ArtistCardProps> = (props) : React.ReactElement 
                 </Typography>
             </CardContent>
             {artist.url &&
-                <Box sx={{ padding: '30px', display: 'flex', justifyContent: 'center'}}>
+                <Box sx={{ padding:  {lg: '30px', xs: '10px'}, display: 'flex', justifyContent: 'center'}}>
                     <Chip 
                         label={'Website'} 
                         sx={{margin: '10px'}} 

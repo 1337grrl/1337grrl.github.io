@@ -30,7 +30,7 @@ const ArtistCardHoch: React.FC<ArtistCardProps> = (props) : React.ReactElement =
                     }, 
                 }}
             >
-                <CardContent sx={{ padding: '5%', display: 'flex', flexDirection: 'column' }}>
+                <CardContent sx={{ padding: {lg: '5%', xs: '1%'}, display: 'flex', flexDirection: 'column' }}>
                     <div>
                         <Typography variant="h2" display='inline'>{artist.name[0]}</Typography>                        
                         <Typography variant="body2" display='inline'>{' ' + artist.name.slice(1)}</Typography>
@@ -45,7 +45,7 @@ const ArtistCardHoch: React.FC<ArtistCardProps> = (props) : React.ReactElement =
                     </Typography>
                 </CardContent>
                 {artist.url &&
-                <Box sx={{ padding: '30px', display: 'flex', justifyContent: 'center'}}>
+                <Box sx={{ padding: {lg: '30px', xs: '10px'}, display: 'flex', justifyContent: 'center'}}>
                     <Chip 
                         label={'Website'} 
                         sx={{margin: '10px'}} 
