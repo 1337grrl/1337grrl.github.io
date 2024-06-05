@@ -35,7 +35,7 @@ const Artists: React.FC<ArtistProps> = (props) => {
             }}
         >
             <Grid>            
-                <Title title={'Die Künstler:innen 2024'}/>
+                <Title title={'Die Künstler:innen 2024'} color='primary.dark'/>
             </Grid>
             {artists.map((artist, index) => (
                 <ArtistCard 

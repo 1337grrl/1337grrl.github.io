@@ -44,7 +44,7 @@ const Locations: React.FC = () => {
             alignItems: 'center',
         }}
         >                         
-            <Title title={'Die Konzertorte'}/>
+            <Title title={'Die Konzertorte'} color='primary.dark'/>
             <Grid 
                 sx={{
                     display: 'flex', 

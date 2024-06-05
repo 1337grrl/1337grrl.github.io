@@ -29,10 +29,11 @@ const Footer: React.FC = () => {
           }}
       >
         <div>
-            <Typography variant="h2" display='inline'>K</Typography>                        
-            <Typography variant="body2" display='inline'> ontakt</Typography>
+            <Typography variant="h2" display='inline' color='primary.dark'>K</Typography>                        
+            <Typography variant="body2" display='inline' color='primary.dark'> ontakt</Typography>
         </div>
-        <Typography sx={{
+        <Typography color='primary.dark'
+        sx={{
             padding: '5%',
         }}>
           c/o Johanna Kaldewei<br/>
@@ -73,8 +74,8 @@ const Footer: React.FC = () => {
           }}
       >
         <div>
-            <Typography variant="h2" display='inline'>D</Typography>                        
-            <Typography variant="body2" display='inline'> ownloads</Typography>
+            <Typography variant="h2" display='inline' color='primary.dark'>D</Typography>                        
+            <Typography variant="body2" display='inline' color='primary.dark'> ownloads</Typography>
         </div>
         <Box
           component="a"
