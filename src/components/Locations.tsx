@@ -68,9 +68,7 @@ const Locations: React.FC = () => {
                             lg: '30%',
                             xs: '90%',
                                 },
-                            marginBottom: {
-                                xs: '2%',
-                            },
+                            m: '2%',
                             boxShadow: 15,
                             bgcolor: 'primary.main'
                         }}
