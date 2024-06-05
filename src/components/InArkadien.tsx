@@ -18,7 +18,8 @@ const InArkadien: React.FC<PropsWithChildren<ArkadienProps>> = (props) => {
                     lg: 'row',
                     xs: 'column',
                 },
-                justifyContent: 'center'
+                justifyContent: 'center',
+                alignItems: 'center',
             }}
         >
             <Title title={'Auch ich in Arkadien...'}/>
