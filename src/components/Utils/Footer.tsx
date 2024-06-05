@@ -79,8 +79,8 @@ const Footer: React.FC = () => {
         </div>
         <Box
           component="a"
-          href="Flyer.png"
-          download="Flyer_Musikfest_Wannsee_2024.png"
+          href="Flyer_Musikfest_Wannsee_2024.pdf"
+          download="Flyer_Musikfest_Wannsee_2024.pdf"
           sx={{ textDecoration: 'none' }}
         >
           <Chip

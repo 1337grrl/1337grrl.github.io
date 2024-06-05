@@ -11,7 +11,7 @@ export const wannsee = [
 ];
 
 export const details = [
-    'Locations/Turm.png', 
-    'Locations/nikolskoe_fruehling_box.png', 
-    'Locations/Uhr.png',
+    'Locations/Door.png', 
+    'Locations/Wetterhahn.png', 
+    'Locations/fenster2.png',
 ];

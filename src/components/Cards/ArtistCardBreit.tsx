@@ -1,4 +1,4 @@
-import {  Box, Card, CardContent, Typography } from "@mui/material";
+import {  Box, Card, CardContent, Chip, Typography } from "@mui/material";
 import { ArtistType } from "../Artists";
 import React from "react";
 
@@ -40,6 +40,18 @@ const ArtistCardBreit: React.FC<ArtistCardProps> = (props) : React.ReactElement 
                 ))}
                 </Typography>
             </CardContent>
+            {artist.url &&
+                <Box sx={{ padding: '30px', display: 'flex', justifyContent: 'center'}}>
+                    <Chip 
+                        label={'Website'} 
+                        sx={{margin: '10px'}} 
+                        component="a" 
+                        href={artist.url} 
+                        clickable 
+                        target="_blank"
+                    />
+                </Box>
+            }
         </Card>
     );
 }

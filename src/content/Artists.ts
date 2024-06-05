@@ -7,6 +7,7 @@ export const ourArtists: ArtistType[] = [
         orientation: 'landscape',
         description: 'Die lautten compagney BERLIN unter der Leitung von Wolfgang Katschner zählt zu den renommiertesten und kreativsten deutschen Barockensembles. Seit ihrer Gründung 1984 begeistert sie Musikliebhaber:innen auf der ganzen Welt. Im Herbst 2019 wurde sie mit dem OPUS Klassik als Ensemble des Jahres ausgezeichnet. Mit Konzerten, Opernaufführungen und Crossoverprojekten setzt sie einzigartige musikalische Akzente. Das Ensemble gehört zu den wenigen freien Produzenten von Musiktheaterprojekten in Deutschland. Für seine ungewöhnlichen und innovativen Programme wird es vom Publikum wie von nationalen und internationalen Feuilletons gleichermaßen geschätzt. Neben ihren Auftritten in Berlin tourt die lautten compagney mit ca. 100 Konzerten pro Jahr durch die Bundesrepublik, Europa und die Welt. Die letzten großen, außereuropäischen Tourneen führten im Jahr 2019 durch 10 Städte Chinas und im Herbst 2021 nach Bogotá in Kolumbien.\n' + 
         'Die lautten compagney pflegt als wichtigen Teil ihres Programmspektrums mit großen Repertoirewerken musikalische Traditionen. Wolfgang Katschner und sein Ensemble sind nicht nur neugierig auf Musik, sondern auch auf neue Wege ihrer konzertanten Darstellung. Ihre eigene, individuelle Plattform für Experimente hat die lautten compagney u.a. mit dem Format der :lounge gefunden. Wenn alte Werke so von neuen Ideen inspiriert werden, verschwinden musikalische Grenzen.',
+        url: 'https://www.lauttencompagney.de/',
     },
     {
         name: 'Staats- und Domchor BERLIN',
@@ -14,6 +15,7 @@ export const ourArtists: ArtistType[] = [
         orientation: 'landscape',
         description: 'Der Staats-und Domchor Berlin gilt als die älteste musikalische Einrichtung Berlins, welcher heute ca. 250 Knaben- und Männerstimmen angehören. Sie sind in ihrer kulturellen und sozialen Vielfalt Spiegelbild unserer Hauptstadt, singen in vielen Sprachen alte und neue Musik und sind mit ihren Stimmen Kulturbotschafter über Grenzen hinweg.\n\n'+
         'Beim Musikfest Wannsee ist er im Abschlusskonzert zu erleben.',
+        url: 'https://www.udk-berlin.de/universitaet/fakultaet-musik/staats-und-domchor-berlin/',
     },
     {
         name: 'Sabine Falkenberg | Schauspielerin',
@@ -29,6 +31,7 @@ export const ourArtists: ArtistType[] = [
         description: 'International gefragt für Konzert, Oper und Lied\nKonzert- und Opernengagements u.a. an der Bayerische Staatsoper, Grand Théâtre Luxembourg, beim Mozartfest Würzburg, in Warschau, Athen, Chile sowie in den großen Konzertsälen Europas.\n'+
         'Zusammenarbeit mit Orchestern wie dem Tonhalle-Orchester Zürich, der Akademie für Alte Musik, dem Ensemble Pygmalion, Qatar Philharmonic Orchestra, Konzerthausorchester Berlin, Berliner Symphnoiker sowie mit Dirigenten wie Helmut Rilling, Benjamin Bayl, Raphael Pichon, Philipp Ahmann, Frank Markowitsch, Christian Curnyn und Wolfgang Katschner\n\n'+
         'Beim Musikfest Wannsee in “Die schöne Magelone” von J. Brahms zu erleben.',
+        url: 'http://simonrobinson.de/',
     },
     {
         name: 'Thorsten Kaldewei | Pianist',
@@ -64,5 +67,6 @@ export const ourArtists: ArtistType[] = [
         'Konzertengagements u.a. in Philharmonie u. Konzerthaus Berlin, Gewandhaus Leipzig, Gasteig München, bachfest Leipzig, Händel-Festspiele Halle, Kirkemusikfestival Oslo\n'+
         'Zusammenarbeit mit namhaften Dirigenten wie Wolfgang Katschner, Christoph Spering, Thomaskantor Andreas Reize, Kai-Uwe Jirka, Ekkehard Klemm, Gregor Meyer und mit Klangkörpern wie u.a. dem Konzerthausorchester Berlin, Gewandhausorchester Leipzig, lautten compagney Berlin, Staatskapelle Halle, Bielefelder Philharmonikern\n\n'+
         'Beim Musikfest Wannsee im Eröffnungskonzert “Auf der Suche nach der besten Welt” und im Liederabend "Auch ich in Arkadien" zu erleben.',
+        url: 'https://www.johannakaldewei.com/'
     },
 ];

@@ -8,6 +8,7 @@ export type ArtistType = {
     image: string,
     description: string,
     orientation?: string,
+    url?: string,
 }
 
 export type ArtistProps = {
