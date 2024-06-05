@@ -78,7 +78,6 @@ const theme = createTheme({
           fontSize: 16,
         },
         color: '#1f293d',
-        textAlign: 'justify',
       },
       body2: {
         fontFamily: '"Marcellus SC", serif',

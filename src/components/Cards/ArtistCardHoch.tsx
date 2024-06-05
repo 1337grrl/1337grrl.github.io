@@ -33,7 +33,7 @@ const ArtistCardHoch: React.FC<ArtistCardProps> = (props) : React.ReactElement =
                     }, 
                 }}
             >
-                <CardContent sx={{ display: 'flex', flexDirection: 'column' }}>
+                <CardContent sx={{ display: 'flex', flexDirection: 'column'}}>
                     <div>
                         <Typography variant="h2" display='inline'>{artist.name[0]}</Typography>                        
                         <Typography variant="body2" display='inline'>{' ' + artist.name.slice(1)}</Typography>
