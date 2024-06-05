@@ -22,7 +22,7 @@ const theme = createTheme({
           fontSize: '9rem',
         },
         '@media (max-width:600px)': {
-          fontSize: '6rem',
+          fontSize: '4rem',
         },
         fontWeight: 700, // Example heading 1 font weight
         marginBottom: '1rem', // Example heading 1 margin bottom
@@ -35,7 +35,7 @@ const theme = createTheme({
           fontSize: '6rem',
         },
         '@media (max-width:600px)': {
-          fontSize: '5rem',
+          fontSize: '3rem',
         }, // Example heading 1 font size
         fontWeight: 600, // Example heading 1 font weight
         marginBottom: '1rem', // Example heading 1 margin bottom
@@ -62,7 +62,7 @@ const theme = createTheme({
           fontSize: '3rem',
         },
         '@media (max-width:600px)': {
-          fontSize: '2rem',
+          fontSize: '1.5rem',
         },
         color: '#1f293d',
         textAlign: 'center',
