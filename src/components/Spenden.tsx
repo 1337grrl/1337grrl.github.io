@@ -20,7 +20,7 @@ const Spenden: React.FC = () => {
             backgroundRepeat: 'no-repeat',
         }}
         >                
-            <Title title={'Unterstützen Sie uns!'}/>
+            <Title title={'Förderer & Sponsoren'}/>
             <Grid
             sx={{ 
                 display: 'flex', 
@@ -42,8 +42,11 @@ const Spenden: React.FC = () => {
                     }}
                 >
                     <Typography>
-                        Helfen Sie uns, Arkadien und das Musikfest Wannsee zum Leben  zu erwecken - Wir freuen uns über Ihre Spende!<br/><br/> 
-                        Mit Ihrer Hilfe finanzieren wir u.a. Werbung für das Musikfest Wannsee, Künstlerhonorare sowie Büro- und Reisekosten.<br/><br/>
+                        Um das Musikfest Wannsee auf musikalisch höchstem Niveau auch in Zukunft nachhaltig und verlässlich stattfinden lassen können, benötigen wir Ihre Unterstützung.<br/><br/> 
+                        Evangelische Kirchengemeinde Wannsee <br/>
+                        IBAN: DE85 5206 0410 3903 9663 99<br/>
+                        BIC: GENODEF1EK1<br/>
+                        Zweck: Musikfest<br/><br/>
                         Jede/r Spender/in, der/die mit Anmeldung über musikfest.wannsee@gmail.com zu einem oder mehreren Konzerten kommt, erhält eine Sitzplatzreservierung und eine arkadische Überraschung.
                     </Typography>
                 </Box>
