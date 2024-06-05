@@ -41,7 +41,7 @@ const Locations: React.FC = () => {
         alignItems='center'
         sx={{
             display: 'grid',
-            padding: '2.5%',
+            padding: '20px',
             bgcolor: 'secondary.main',
             justifyItems: 'center',
         }}
@@ -66,7 +66,6 @@ const Locations: React.FC = () => {
                             lg: '30%',
                             xs: '85%',
                                 },
-                            m: '.5%',
                             boxShadow: 15,
                             bgcolor: 'primary.main'
                         }}
@@ -75,7 +74,7 @@ const Locations: React.FC = () => {
                             component="img"
                             src={location.image}
                             alt={location.name}
-                            sx={{ height: '50%', maxWidth: '95%' }}
+                            sx={{ height: '50%', maxWidth: '100%' }}
                         />
                         <CardContent>
                             <Typography variant='body2'>{location.name}</Typography>
