@@ -40,8 +40,8 @@ const Locations: React.FC = () => {
         justifyContent='center'
         alignItems='center'
         sx={{
-            display: 'grid',
-            padding: '20px',
+            display: 'flex',
+            padding: '2%',
             bgcolor: 'secondary.main',
             justifyItems: 'center',
         }}
