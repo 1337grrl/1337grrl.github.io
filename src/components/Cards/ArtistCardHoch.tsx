@@ -63,7 +63,7 @@ const ArtistCardHoch: React.FC<ArtistCardProps> = (props) : React.ReactElement =
             <Box sx={{ 
                 width: {
                 lg: '30%',
-                xs: '90%',
+                xs: '100%',
                     }, 
                 }}
             >
