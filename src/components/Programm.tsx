@@ -1,5 +1,6 @@
 import { Grid } from "@mui/material";
 import ProgrammCard, { ProgrammCardProps } from "./Cards/ProgrammCard";
+import Title from "./Utils/Title";
 
 type ProgramProps = {
     programItems: ProgrammCardProps[];
@@ -22,6 +23,7 @@ const Programm: React.FC<ProgramProps> = (props) => {
                 justifyItems: 'center'
             }}
         >
+            <Title title={'Unser Programm 2024'}/>
             {programItems.map((item, index) => (
                 <ProgrammCard 
                     key={index}

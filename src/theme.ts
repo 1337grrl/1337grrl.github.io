@@ -17,7 +17,7 @@ const theme = createTheme({
       ].join(','), 
       h1: {
         fontFamily: '"Whisper", cursive',
-        fontSize: '15rem', // Example heading 1 font size
+        fontSize: '12rem', // Example heading 1 font size
         fontWeight: 700, // Example heading 1 font weight
         marginBottom: '1rem', // Example heading 1 margin bottom
         color: '#1f293d',
@@ -45,7 +45,7 @@ const theme = createTheme({
       },
       h6: {
         fontFamily: '"Marcellus SC", serif',
-        fontSize: '6rem',
+        fontSize: '4.5rem',
         color: '#1f293d',
         textAlign: 'center',
       },

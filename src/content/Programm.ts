@@ -12,7 +12,7 @@ export const Program: ProgrammCardProps[] = [
     {
         image: 'Programm/Hirtenidyll.png', 
         name: 'Der arkadische Traum an den Ufern der Havel', 
-        description: 'Kammermusik und kunsthistorische Betrachtungen - ein Spaziergang durch die Wannseer Kulturlandschaft\nDr. Friederike Südmeyer | Kunsthistorikerin\nEleonora Trivella | Barockoboe\nEnrico Toffano | Barockfagott\nMimoe Todo | Cembalo', 
+        description: 'Ein Spaziergang durch die Wannseer Kulturlandschaft -\n Kammermusik und kunsthistorische Betrachtungen\nDr. Friederike Südmeyer | Kunsthistorikerin\nEleonora Trivella | Barockoboe\nEnrico Toffano | Barockfagott\nMimoe Todo | Cembalo', 
         location: 'Nikolskoe', 
         date: '21.09. | 16.00 Uhr'
     },
