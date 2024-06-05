@@ -13,6 +13,7 @@ const Title: React.FC<PropsWithChildren<TitleProps>> = (props) => {
         <div 
             style={{ 
                 transform: `scale(${ratio})`,
+                maxWidth: '100%'
                 }}
             >
             <Typography variant="h1" display='inline'>{title[0]}</Typography>                        
