@@ -21,7 +21,7 @@ const InArkadien: React.FC<PropsWithChildren<ArkadienProps>> = (props) => {
                 justifyContent: 'center'
             }}
         >
-            <Title title={'Auch ich in Arkadien'}/>
+            <Title title={'Auch ich in Arkadien...'}/>
             <Box sx={{ 
                 width: '100%', 
                 }}

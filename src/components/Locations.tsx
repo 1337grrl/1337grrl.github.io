@@ -58,10 +58,7 @@ const Locations: React.FC = () => {
                         lg: 'space-evenly',
                         xs: 'center',
                     }, 
-                    alignItems: {
-                        lg: 'stretch',
-                    },
-                    width: '90%',
+                    width: '90%'
                 }}
             >
                 {locations.map((location, index) => (
@@ -70,9 +67,9 @@ const Locations: React.FC = () => {
                             display: 'flex',
                             flexDirection: 'column',
                             maxWidth: {
-                                lg: '30%',
-                                xs: '90%',
-                            },
+                            lg: '30%',
+                            xs: '90%',
+                                },
                             marginBottom: {
                                 xs: '2%',
                             },

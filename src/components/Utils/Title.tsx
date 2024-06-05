@@ -3,17 +3,16 @@ import React, { PropsWithChildren } from 'react';
 
 export type TitleProps = {
     title: string,
-    ratio?: string,
 }
 
 const Title: React.FC<PropsWithChildren<TitleProps>> = (props) => {
-    const {title, ratio = '1'} = props;
+    const {title} = props;
 
     return (
         <div 
             style={{ 
-                transform: `scale(${ratio})`,
-                maxWidth: '100%'
+                maxWidth: '100%',
+                marginBottom: '5%',
                 }}
             >
             <Typography variant="h1" display='inline'>{title[0]}</Typography>                        
