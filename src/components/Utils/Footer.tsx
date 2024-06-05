@@ -1,6 +1,5 @@
 import React from 'react';
 import { Box, Chip, Grid, Typography } from '@mui/material';
-import Title from './Title';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import DownloadIcon from '@mui/icons-material/Download';
@@ -29,14 +28,17 @@ const Footer: React.FC = () => {
               flexDirection: 'column',                  
           }}
       >
-        <Title title={'Kontakt'}/>
+        <div>
+            <Typography variant="h2" display='inline'>K</Typography>                        
+            <Typography variant="body2" display='inline'> ontakt</Typography>
+        </div>
         <Typography sx={{
-            padding: '40px',
+            padding: '5%',
         }}>
           c/o Johanna Kaldewei<br/>
           E-Mail: musikfest.wannsee@gmail.com<br/>
           Social Media:
-                <Box sx={{ padding: '30px'}}>
+                <Box sx={{ padding: '5%'}}>
                     <Chip 
                       label={'musikfestwannsee'} 
                       sx={{margin: '10px'}} 
@@ -70,7 +72,10 @@ const Footer: React.FC = () => {
               flexDirection: 'column',                  
           }}
       >
-        <Title title={'Downloads'}/>
+        <div>
+            <Typography variant="h2" display='inline'>D</Typography>                        
+            <Typography variant="body2" display='inline'> ownloads</Typography>
+        </div>
         <Box
           component="a"
           href="Flyer.png"

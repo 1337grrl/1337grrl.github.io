@@ -46,7 +46,7 @@ const ProgrammCard: React.FC<PropsWithChildren<ProgrammCardProps>> = (props) : R
                 }}
             >
                 <CardContent sx={{ padding: '10%'}}>
-                    <div>
+                    <div style={{ paddingBottom: '10%'}}>
                         <Typography variant="h2" display='inline'>{name[0]}</Typography>                        
                         <Typography variant="body2" display='inline'>{' ' + name.slice(1)}</Typography>
                     </div>
@@ -57,7 +57,15 @@ const ProgrammCard: React.FC<PropsWithChildren<ProgrammCardProps>> = (props) : R
                         </React.Fragment>
                         ))}
                     </Typography>
-                <Stack direction='row' sx={{ paddingTop: '10%'}}>
+                <Stack 
+                    sx={{ 
+                        paddingTop: '10%',
+                        display: 'flex',
+                        flexDirection: {
+                            lg: 'row',
+                            xs: 'column',
+                        },
+                    }}>
                     <Chip label={date} sx={{margin: '10px'}}></Chip>
                     <Chip label={location} sx={{margin: '10px'}}></Chip>
                 </Stack>

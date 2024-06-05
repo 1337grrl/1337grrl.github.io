@@ -1,5 +1,6 @@
 import { ProgrammCardProps } from "../components/Cards/ProgrammCard";
 
+
 export const Program: ProgrammCardProps[] = [
     {
         image: 'Programm/Eroeffnungskonzert.png', 
@@ -10,8 +11,8 @@ export const Program: ProgrammCardProps[] = [
     },
     {
         image: 'Programm/Hirtenidyll.png', 
-        name: 'Arkadiens Hirtenidyll - eine bukolische Reise', 
-        description: 'Kammermusik\nEleonora Trivella | Barockoboe\nEnrico Toffano | Barockfagott\nMimoe Todo | Cembalo', 
+        name: 'Der arkadische Traum an den Ufern der Havel', 
+        description: 'Kammermusik und kunsthistorische Betrachtungen - ein Spaziergang durch die Wannseer Kulturlandschaft\nDr. Friederike Südmeyer | Kunsthistorikerin\nEleonora Trivella | Barockoboe\nEnrico Toffano | Barockfagott\nMimoe Todo | Cembalo', 
         location: 'Nikolskoe', 
         date: '21.09. | 16.00 Uhr'
     },
@@ -25,7 +26,7 @@ export const Program: ProgrammCardProps[] = [
     {
         image: 'Programm/Kantatengottesdienst.png', 
         name: 'Der Herr ist mein Hirte', 
-        description: 'Kantatengottesdienst\nWerke von Telemann, Schubert, Dvorak\nPredigt: Pfarrer Kulla', 
+        description: 'Kantatengottesdienst\nWerke von Telemann, Schubert, Dvorak\nPredigt: Pfarrer Helmut Kulla', 
         location: 'Nikolskoe', 
         date: '22.09. | 15.00 Uhr'
     },

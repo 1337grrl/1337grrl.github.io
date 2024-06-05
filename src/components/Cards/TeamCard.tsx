@@ -25,7 +25,12 @@ const TeamCard: React.FC<TeamCardProps> = (props) : React.ReactElement => {
                         variant="body2"
                         textAlign={'center'}
                     >
-                        {teamMember.name}
+                        {teamMember.name!.split('\n').map((line, index) => (
+                            <React.Fragment key={index}>
+                                {line}
+                                <br />
+                            </React.Fragment>
+                        ))}
                     </Typography>
                     <Typography 
                         variant="body1" 

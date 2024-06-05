@@ -33,6 +33,7 @@ const Team: React.FC<TeamProps> = (props) => {
                         xs: 'column',
                     },
                     justifyContent: 'space-evenly', 
+                    alignItems: 'center'
                 }}
             >
                 <Box

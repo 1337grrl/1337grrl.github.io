@@ -22,9 +22,10 @@ export const ourTeam: TeamMemberType[] = [
         description: 'Webmaster',
     },
     {
-        name: 'In Zusammenarbeit mit der Kirchengemeinde Berlin-Wannsee\n', 
+        name: 'In Zusammenarbeit mit der Evangelischen Kirchengemeinde Berlin-Wannsee\nund der Kirche St. Peter und Paul auf Nikolskoe\n', 
         image: '',
-        description: 'Alice von Podbielski-Stellpflug\n'+
-        'Pfarrerin Sapna Joshi',
+        description:
+        'Sapna Joshi, Pfarrerin der Ev. Gemeinde Berlin-Wannsee\n' + 
+        'Alice von Podbielski-Stellpflug, Vorsitzende des Gemeindekirchenrates und des Kuratoriums'
     },
 ];
