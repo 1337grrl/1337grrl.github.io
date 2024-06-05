@@ -1,5 +1,6 @@
 import { Box, Grid } from "@mui/material";
 import TeamCard from "./Cards/TeamCard";
+import Title from "./Utils/Title";
 
 export type TeamMemberType = {
     name?: string,
@@ -25,6 +26,7 @@ const Team: React.FC<TeamProps> = (props) => {
                     </Grid>
                 ))
             }
+            <Title title={'Das Team'}/>
             <Grid
                 sx={{
                     display: 'flex', 

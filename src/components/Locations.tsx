@@ -19,7 +19,7 @@ const locations: LocationType[] = [
         url: 'https://www.google.com/maps/place/Wilhelmpl.+1,+14109+Berlin/@52.4119456,13.1388765,17z/data=!3m1!4b1!4m6!3m5!1s0x47a858c7b4b03d3f:0xbd39994147b2b66d!8m2!3d52.4119456!4d13.1414514!16s%2Fg%2F11bw43blsn?entry=ttu',
     },
     {
-        name: 'St. Peter und Paul',
+        name: 'St. Peter und Paul auf Nikolskoe',
         image: 'Locations/St._Peter_und_Paul.png',
         description: 'Die Evangelische Kirche St. Peter und Paul auf Nikolskoe wurde zwischen 1834 und 1837 für die Bewohner der Pfaueninsel und von Kleinglienicke auf Erlass des Königs Friedrich Wilhelm III. erbaut. Die schlichte beschauliche Kirche mit ihrem romantischen Ambiente zieht heute nicht nur Wanderer in ihren Bann, sondern immer mehr junge Leute, die in dieser ruhigen, von aller Hektik der Stadt abgewandten Kirche, den Bund der Ehe schließen und ihre Kinder taufen lassen wollen.',
         address: 'Nikolskoer Weg 17, 14109 Berlin',
@@ -46,7 +46,7 @@ const Locations: React.FC = () => {
             justifyItems: 'center',
         }}
         >                         
-            <Title title={'Unsere Konzertorte'}/>
+            <Title title={'Die Konzertorte'}/>
             <Grid 
                 sx={{
                     display: 'flex', 

@@ -1,6 +1,6 @@
 import { Grid } from "@mui/material";
-import ArtistCard from "./Cards/ArtistCard";
 import Title from "./Utils/Title";
+import ArtistCard from "./Cards/ArtistCard";
 
 export type ArtistType = {
     name: string,
@@ -35,7 +35,7 @@ const Artists: React.FC<ArtistProps> = (props) => {
             }}
         >
             <Grid>            
-                <Title title={'Unsere Künstler:innen 2024'}/>
+                <Title title={'Die Künstler:innen 2024'}/>
             </Grid>
             {artists.map((artist, index) => (
                 <ArtistCard 

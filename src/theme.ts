@@ -17,14 +17,26 @@ const theme = createTheme({
       ].join(','), 
       h1: {
         fontFamily: '"Whisper", cursive',
-        fontSize: '12rem', // Example heading 1 font size
+        fontSize:'12rem',
+        '@media (max-width:1200px)': {
+          fontSize: '9rem',
+        },
+        '@media (max-width:600px)': {
+          fontSize: '6rem',
+        },
         fontWeight: 700, // Example heading 1 font weight
         marginBottom: '1rem', // Example heading 1 margin bottom
         color: '#1f293d',
       },
       h2: {
         fontFamily: '"Whisper", cursive',
-        fontSize: '7rem', // Example heading 1 font size
+        fontSize: '7rem',
+        '@media (max-width:1200px)': {
+          fontSize: '6rem',
+        },
+        '@media (max-width:600px)': {
+          fontSize: '5rem',
+        }, // Example heading 1 font size
         fontWeight: 600, // Example heading 1 font weight
         marginBottom: '1rem', // Example heading 1 margin bottom
         color: '#1f293d',
@@ -46,18 +58,36 @@ const theme = createTheme({
       h6: {
         fontFamily: '"Marcellus SC", serif',
         fontSize: '4.5rem',
+        '@media (max-width:1200px)': {
+          fontSize: '3rem',
+        },
+        '@media (max-width:600px)': {
+          fontSize: '2rem',
+        },
         color: '#1f293d',
         textAlign: 'center',
       },
       body1: {
         fontFamily: '"Marcellus", serif',
         fontSize: 24,
+        '@media (max-width:1200px)': {
+          fontSize: 20,
+        },
+        '@media (max-width:600px)': {
+          fontSize: 16,
+        },
         color: '#1f293d',
         textAlign: 'justify',
       },
       body2: {
         fontFamily: '"Marcellus SC", serif',
         fontSize: 36,
+        '@media (max-width:1200px)': {
+          fontSize: 28,
+        },
+        '@media (max-width:600px)': {
+          fontSize: 24,
+        },
         color: '#1f293d',
         textAlign: 'center',
       },
@@ -68,6 +98,12 @@ const theme = createTheme({
           root: {
             fontFamily: '"Ojuju", sans-serif',
             fontSize: 20,
+            '@media (max-width:1200px)': {
+              fontSize: 16,
+            },
+            '@media (max-width:600px)': {
+              fontSize: 14,
+            },
             padding: '20px',
             backgroundColor: '#4a6390', // Custom background color for chips
             color: '#ebe2d9',
@@ -78,6 +114,5 @@ const theme = createTheme({
     },
 });
 
-const responsiveTheme = responsiveFontSizes(theme);
 
-export default responsiveTheme;
+export default theme;

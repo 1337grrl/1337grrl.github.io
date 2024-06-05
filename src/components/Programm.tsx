@@ -23,7 +23,7 @@ const Programm: React.FC<ProgramProps> = (props) => {
                 justifyItems: 'center'
             }}
         >
-            <Title title={'Unser Programm 2024'}/>
+            <Title title={'Das Programm 2024'}/>
             {programItems.map((item, index) => (
                 <ProgrammCard 
                     key={index}

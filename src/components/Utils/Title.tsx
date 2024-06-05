@@ -12,11 +12,10 @@ const Title: React.FC<PropsWithChildren<TitleProps>> = (props) => {
         <div 
             style={{ 
                 maxWidth: '100%',
-                marginBottom: '5%',
                 }}
             >
             <Typography variant="h1" display='inline'>{title[0]}</Typography>                        
-            <Typography variant="h6" display='inline'>{' ' + title.slice(1)}</Typography>
+            <Typography variant="h6" display='inline'>{title.slice(1)}</Typography>
         </div>
     );
 };
