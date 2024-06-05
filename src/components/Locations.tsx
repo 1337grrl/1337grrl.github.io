@@ -118,6 +118,7 @@ const Locations: React.FC = () => {
                         height: 'auto',
                         margin: '2.5%',
                         display: 'flex',
+                        flexDirection: 'column',
                         justifyContent: 'center',     
                     }}
                 >
@@ -129,6 +130,7 @@ const Locations: React.FC = () => {
                             border: 0,
                         }}
                     />
+                    <Typography variant='body2' color='primary.dark'>Rundweg zwischen den Konzertorten</Typography>
                 </Box>
             </Grid>
         </Grid>
