@@ -8,7 +8,6 @@ export type ArtistCardProps = {
 
 const ArtistCardHoch: React.FC<ArtistCardProps> = (props) : React.ReactElement => {
     const { artist } = props;
-    const imageWidth = artist.orientation == 'landscape' ? '100%' : '30%';
 
     return (
         <Card
@@ -20,7 +19,11 @@ const ArtistCardHoch: React.FC<ArtistCardProps> = (props) : React.ReactElement =
                     lg: 'row',
                     xs: 'column',
                 },
-                width: '85%',
+                width: {
+                    lg: '75%',
+                    xs: '85%',
+                },
+                padding: '5%',
             }}
         >
             <Box sx={{ 
@@ -30,7 +33,7 @@ const ArtistCardHoch: React.FC<ArtistCardProps> = (props) : React.ReactElement =
                     }, 
                 }}
             >
-                <CardContent sx={{ padding: {lg: '5%', xs: '1%'}, display: 'flex', flexDirection: 'column' }}>
+                <CardContent sx={{ display: 'flex', flexDirection: 'column' }}>
                     <div>
                         <Typography variant="h2" display='inline'>{artist.name[0]}</Typography>                        
                         <Typography variant="body2" display='inline'>{' ' + artist.name.slice(1)}</Typography>
@@ -45,7 +48,7 @@ const ArtistCardHoch: React.FC<ArtistCardProps> = (props) : React.ReactElement =
                     </Typography>
                 </CardContent>
                 {artist.url &&
-                <Box sx={{ padding: {lg: '30px', xs: '10px'}, display: 'flex', justifyContent: 'center'}}>
+                <Box sx={{ display: 'flex', justifyContent: 'center'}}>
                     <Chip 
                         label={'Website'} 
                         sx={{margin: '10px'}} 
@@ -59,10 +62,9 @@ const ArtistCardHoch: React.FC<ArtistCardProps> = (props) : React.ReactElement =
             </Box>
             <Box sx={{ 
                 width: {
-                lg: imageWidth,
-                xs: '100%',
+                lg: '30%',
+                xs: '90%',
                     }, 
-                padding: '5%' 
                 }}
             >
                 <img src={artist.image} alt={artist.name} style={{width: '100%', height: 'auto'}}/>
