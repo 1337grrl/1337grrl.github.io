@@ -1,6 +1,5 @@
 import { Grid } from "@mui/material";
 import Title from "./Utils/Title";
-import ArtistCard from "./Cards/ArtistCardHoch";
 import ArtistCardBreit from "./Cards/ArtistCardBreit";
 import ArtistCardHoch from "./Cards/ArtistCardHoch";
 
