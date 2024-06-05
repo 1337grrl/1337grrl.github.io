@@ -29,9 +29,7 @@ const Footer: React.FC = () => {
               flexDirection: 'column',                  
           }}
       >
-        <Grid>            
-          <Title title={'Kontakt'}/>
-        </Grid>
+        <Title title={'Kontakt'}/>
         <Typography sx={{
             padding: '40px',
         }}>
@@ -72,9 +70,7 @@ const Footer: React.FC = () => {
               flexDirection: 'column',                  
           }}
       >
-        <Grid>            
-          <Title title={'Downloads'}/>
-        </Grid>
+        <Title title={'Downloads'}/>
         <Box
           component="a"
           href="Flyer.png"

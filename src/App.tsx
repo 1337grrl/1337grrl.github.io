@@ -23,17 +23,17 @@ const kirchenausschnitte = details;
 function App() {
   return (
     <>
-        <Logo/>        
-        <ImageSlide images={umgebung}/>
-        <About/>
-        <Locations/>
-        <Motto/>
-        <Programm programItems={program}/>
-        <InArkadien/>
-        <Artists artists={artists}/>
-        <Spenden/>
-        <ImageSlide images={kirchenausschnitte}/>
-        <Team teamMembers={team}/>
+      <Logo/>        
+      <ImageSlide images={umgebung}/>
+      <About/>
+      <Locations/>
+      <Motto/>
+      <Programm programItems={program}/>
+      <InArkadien/>
+      <Artists artists={artists}/>
+      <Spenden/>
+      <ImageSlide images={kirchenausschnitte}/>
+      <Team teamMembers={team}/>
       <Footer/>
     </>
   );

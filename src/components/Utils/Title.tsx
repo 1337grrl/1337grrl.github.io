@@ -7,7 +7,7 @@ export type TitleProps = {
 }
 
 const Title: React.FC<PropsWithChildren<TitleProps>> = (props) => {
-    const {title, ratio = '1.7'} = props;
+    const {title, ratio = '1'} = props;
 
     return (
         <div 
@@ -16,7 +16,7 @@ const Title: React.FC<PropsWithChildren<TitleProps>> = (props) => {
                 }}
             >
             <Typography variant="h1" display='inline'>{title[0]}</Typography>                        
-            <Typography variant="body2" display='inline'>{' ' + title.slice(1)}</Typography>
+            <Typography variant="h6" display='inline'>{' ' + title.slice(1)}</Typography>
         </div>
     );
 };

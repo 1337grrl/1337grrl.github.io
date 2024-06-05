@@ -1,6 +1,7 @@
 import { Box, Card, CardContent, CardMedia, Chip, Grid, Typography } from "@mui/material";
 import Title from "./Utils/Title";
 
+
 type LocationType= {
     name: string,
     image: string,
@@ -46,7 +47,10 @@ const Locations: React.FC = () => {
         }}
         >
 
-            <Grid>            
+            <Grid
+                sx={{
+                    maxWidth: '90%',
+                }}>            
                 <Title title={'Unsere Konzertorte'}/>
             </Grid>
             <Grid 

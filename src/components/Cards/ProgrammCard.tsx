@@ -1,6 +1,5 @@
-import { Box, Card, CardContent, Chip, Typography } from "@mui/material";
+import { Box, Card, CardContent, CardMedia, Chip, Stack, Typography } from "@mui/material";
 import React, { PropsWithChildren } from "react";
-import Title from "../Utils/Title";
 
 export type ProgrammCardProps = {
     image: string,
@@ -29,16 +28,16 @@ const ProgrammCard: React.FC<PropsWithChildren<ProgrammCardProps>> = (props) : R
                 },
             }}
         >
-            <Box sx={{ 
+            <CardMedia sx={{ 
                     width: {
                         lg: '35%',
                         xs: '100%',
                     },
-                    m: '5%',
+                    padding: '5%',
                 }}
                 >
                 <img src={image} style={{width: '100%', height: 'auto'}}/>
-            </Box>                
+            </CardMedia>                
             <Box sx={{  
                 width: {
                     lg: '65%',
@@ -46,8 +45,11 @@ const ProgrammCard: React.FC<PropsWithChildren<ProgrammCardProps>> = (props) : R
                     }, 
                 }}
             >
-                <CardContent sx={{ paddingLeft: '40px', paddingTop: '40px'}}>
-                    <Title title={name} ratio={'1'}/>
+                <CardContent sx={{ padding: '10%'}}>
+                    <div>
+                        <Typography variant="h2" display='inline'>{name[0]}</Typography>                        
+                        <Typography variant="body2" display='inline'>{' ' + name.slice(1)}</Typography>
+                    </div>
                     <Typography variant="body1">{description.split('\n').map((line, index) => (
                         <React.Fragment key={index}>
                             {line}
@@ -55,11 +57,11 @@ const ProgrammCard: React.FC<PropsWithChildren<ProgrammCardProps>> = (props) : R
                         </React.Fragment>
                         ))}
                     </Typography>
-                </CardContent>
-                <Box sx={{ padding: '30px'}}>
+                <Stack direction='row' sx={{ paddingTop: '10%'}}>
                     <Chip label={date} sx={{margin: '10px'}}></Chip>
                     <Chip label={location} sx={{margin: '10px'}}></Chip>
-                </Box>
+                </Stack>
+                </CardContent>
             </Box>
         </Card>
     );
