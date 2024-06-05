@@ -5,14 +5,14 @@ export const ourArtists: ArtistType[] = [
         name: 'Lautten compagney Berlin',
         image: 'Artists/lauttencompagney.png',
         orientation: 'landscape',
-        description: 'Die lautten compagney BERLIN ist eines der renommiertesten und kreativsten deutschen Barockensembles. Begeistert durch ansteckende Spielfreude und innovative Konzepte, vielfach ausgezeichnet, u.a. mit dem OPUS Klassik 2019.\n\n'+
-        'Beim Musikfest Wannsee ist sie im Eröffnungskonzert “Auf der Suche nach der besten Welt” zu erleben.',
+        description: 'Die lautten compagney BERLIN unter der Leitung von Wolfgang Katschner zählt zu den renommiertesten und kreativsten deutschen Barockensembles. Seit ihrer Gründung 1984 begeistert sie Musikliebhaber:innen auf der ganzen Welt. Im Herbst 2019 wurde sie mit dem OPUS Klassik als Ensemble des Jahres ausgezeichnet. Mit Konzerten, Opernaufführungen und Crossoverprojekten setzt sie einzigartige musikalische Akzente. Das Ensemble gehört zu den wenigen freien Produzenten von Musiktheaterprojekten in Deutschland. Für seine ungewöhnlichen und innovativen Programme wird es vom Publikum wie von nationalen und internationalen Feuilletons gleichermaßen geschätzt. Neben ihren Auftritten in Berlin tourt die lautten compagney mit ca. 100 Konzerten pro Jahr durch die Bundesrepublik, Europa und die Welt. Die letzten großen, außereuropäischen Tourneen führten im Jahr 2019 durch 10 Städte Chinas und im Herbst 2021 nach Bogotá in Kolumbien.\n' + 
+        'Die lautten compagney pflegt als wichtigen Teil ihres Programmspektrums mit großen Repertoirewerken musikalische Traditionen. Wolfgang Katschner und sein Ensemble sind nicht nur neugierig auf Musik, sondern auch auf neue Wege ihrer konzertanten Darstellung. Ihre eigene, individuelle Plattform für Experimente hat die lautten compagney u.a. mit dem Format der :lounge gefunden. Wenn alte Werke so von neuen Ideen inspiriert werden, verschwinden musikalische Grenzen.',
     },
     {
         name: 'Staats- und Domchor BERLIN',
         image: 'Artists/Staats_und_Domchor.png',    
         orientation: 'landscape',
-        description: 'Der Staats-und Domchor Berlin gilt als die älteste musikalische Einrichtung Berlins, welcher heute ca. 250 Knaben- und Männerstimmen angehören. Sie sind in ihrer kulturellen und sozialen Vielfalt Spiegelbild unserer Hauptstadt, singen in vielen Sprachen alte und neue Musik und sind mit ihren Stimmen Kulturbotschafter über Grenzen hinweg\n\n'+
+        description: 'Der Staats-und Domchor Berlin gilt als die älteste musikalische Einrichtung Berlins, welcher heute ca. 250 Knaben- und Männerstimmen angehören. Sie sind in ihrer kulturellen und sozialen Vielfalt Spiegelbild unserer Hauptstadt, singen in vielen Sprachen alte und neue Musik und sind mit ihren Stimmen Kulturbotschafter über Grenzen hinweg.\n\n'+
         'Beim Musikfest Wannsee ist er im Abschlusskonzert zu erleben.',
     },
     {

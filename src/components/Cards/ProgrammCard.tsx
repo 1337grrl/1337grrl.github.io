@@ -36,7 +36,7 @@ const ProgrammCard: React.FC<PropsWithChildren<ProgrammCardProps>> = (props) : R
                     padding: '5%',
                 }}
                 >
-                <img src={image} style={{width: '100%', height: 'auto'}}/>
+                <img src={image} style={{width: '90%', height: 'auto'}}/>
             </CardMedia>                
             <Box sx={{  
                 width: {

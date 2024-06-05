@@ -1,6 +1,8 @@
 import { Grid } from "@mui/material";
 import Title from "./Utils/Title";
-import ArtistCard from "./Cards/ArtistCard";
+import ArtistCard from "./Cards/ArtistCardHoch";
+import ArtistCardBreit from "./Cards/ArtistCardBreit";
+import ArtistCardHoch from "./Cards/ArtistCardHoch";
 
 export type ArtistType = {
     name: string,
@@ -38,7 +40,12 @@ const Artists: React.FC<ArtistProps> = (props) => {
                 <Title title={'Die Künstler:innen 2024'} color='primary.dark'/>
             </Grid>
             {artists.map((artist, index) => (
-                <ArtistCard 
+                artist.orientation == 'landscape' ? 
+                <ArtistCardBreit 
+                    key={index} 
+                    artist={artist}
+                /> : 
+                <ArtistCardHoch
                     key={index} 
                     artist={artist}
                 />
