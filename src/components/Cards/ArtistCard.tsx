@@ -1,7 +1,6 @@
 import {  Box, Card, CardContent, Typography } from "@mui/material";
 import { ArtistType } from "../Artists";
 import React from "react";
-import Title from "../Utils/Title";
 
 export type ArtistCardProps = {
     artist: ArtistType,
@@ -31,8 +30,11 @@ const ArtistCard: React.FC<ArtistCardProps> = (props) : React.ReactElement => {
                     }, 
                 }}
             >
-                <CardContent sx={{ padding: '40px', display: 'flex', flexDirection: 'column' }}>
-                    <Title title={artist.name} ratio={'1'}/>
+                <CardContent sx={{ padding: '10%', display: 'flex', flexDirection: 'column' }}>
+                    <div>
+                        <Typography variant="h2" display='inline'>{artist.name[0]}</Typography>                        
+                        <Typography variant="body2" display='inline'>{' ' + artist.name.slice(1)}</Typography>
+                    </div>
                     <Typography variant="body1">
                     {artist.description.split('\n').map((line, index) => (
                         <React.Fragment key={index}>
@@ -48,7 +50,7 @@ const ArtistCard: React.FC<ArtistCardProps> = (props) : React.ReactElement => {
                 lg: imageWidth,
                 xs: '100%',
                     }, 
-                m: '5%' 
+                padding: '5%' 
                 }}
             >
                 <img src={artist.image} alt={artist.name} style={{width: '100%', height: 'auto'}}/>
