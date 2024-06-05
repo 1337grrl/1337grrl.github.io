@@ -7,7 +7,7 @@ const Motto: React.FC = () => {
         container 
         sx={{ 
             backgroundColor: 'secondary.light',
-            padding: '40px',
+            padding: '30px',
             display: 'flex', 
             flexDirection: {
                 lg: 'row',

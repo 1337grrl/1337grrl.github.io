@@ -6,7 +6,7 @@ const About: React.FC = () => {
         container 
         sx={{ 
             backgroundColor: 'secondary.light',
-            padding: '2%',
+            padding: '30px',
             display: 'flex', 
             flexDirection: {
                 lg: 'row',
