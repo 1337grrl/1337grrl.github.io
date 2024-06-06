@@ -31,7 +31,7 @@ const Motto: React.FC = () => {
                 <Title title={'Das Motto 2024'}/>
                 <Typography>
                     2024 wird das Festival unter dem Motto <Typography variant="body2" display='inline'>Apropos Arkadien...</Typography> stattfinden.<br/><br/>
-                    Arkadien, als mythologische Idylle, als das Land unserer Sehnsucht, in dem Menschen und Tiere im Einklang mit der Natur leben, hat Künstler seit jeher fasziniert. Zu Beginn des 19. Jahrhunderts ließen die Preußischen Könige Friedrich Wilhelm III. und Friedrich Wilhelm IV. die Landschaft zwischen Potsdam und Berlin, die von der Havel, den anliegenden Seen und Wäldern geprägt ist, in eine weitläufige Park- und Kulturlandschaft umgestalten, die bis heute als "Preußisches Arkadien" bekannt <br/><br/>
+                    Arkadien, als mythologische Idylle, als das Land unserer Sehnsucht, in dem Menschen und Tiere im Einklang mit der Natur leben, hat Künstler seit jeher fasziniert. Zu Beginn des 19. Jahrhunderts ließen die Preußischen Könige Friedrich Wilhelm III. und Friedrich Wilhelm IV. die Landschaft zwischen Potsdam und Berlin, die von der Havel, den anliegenden Seen und Wäldern geprägt ist, in eine weitläufige Park- und Kulturlandschaft umgestalten, die bis heute als "Preußisches Arkadien" bekannt ist.<br/><br/>
                     Arkadien als persönlicher Sehnsuchtsort hat auch für uns heutzutage nicht an Aktualität verloren. Wo könnten wir dem besser nachspüren als in Wannsee, mitten im Herzen des preußischen Arkadiens?
                 </Typography>
             </Box>

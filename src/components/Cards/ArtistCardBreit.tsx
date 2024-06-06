@@ -20,7 +20,7 @@ const ArtistCardBreit: React.FC<ArtistCardProps> = (props) : React.ReactElement 
                     lg: '75%',
                     xs: '85%',
                 },
-                padding: '5%',
+                padding: '2%',
             }}
         >
             <Box sx={{ 

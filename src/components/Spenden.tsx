@@ -1,5 +1,4 @@
 import { Box, Grid, Typography } from "@mui/material";
-import Title from "./Utils/Title";
 
 const Spenden: React.FC = () => {
     return (
@@ -19,8 +18,13 @@ const Spenden: React.FC = () => {
             backgroundPosition: 'bottom right',
             backgroundRepeat: 'no-repeat',
         }}
-        >                
-            <Title title={'Förderer & Sponsoren'}/>
+        >
+            <Grid>
+                <Typography variant="h1" display='inline'>F</Typography>                        
+                <Typography variant="h6" display='inline'> örderer & </Typography>
+                <Typography variant="h1" display='inline'>S</Typography>                        
+                <Typography variant="h6" display='inline'> ponsoren</Typography>
+            </Grid>
             <Grid
             sx={{ 
                 display: 'flex', 
@@ -43,14 +47,6 @@ const Spenden: React.FC = () => {
                 >
                     <Typography>
                         Um das Musikfest Wannsee auf musikalisch höchstem Niveau auch in Zukunft nachhaltig und verlässlich stattfinden lassen können, benötigen wir Ihre Unterstützung.<br/><br/> 
-                    </Typography>
-                    <Typography variant='body2'>
-                        Evangelische Kirchengemeinde Wannsee <br/>
-                        IBAN: DE85 5206 0410 3903 9663 99<br/>
-                        BIC: GENODEF1EK1<br/>
-                        Zweck: Musikfest<br/><br/>
-                    </Typography>
-                    <Typography>
                         Jede/r Spender/in, der/die mit Anmeldung über musikfest.wannsee@gmail.com zu einem oder mehreren Konzerten kommt, erhält eine Sitzplatzreservierung und eine arkadische Überraschung.
                     </Typography>
                 </Box>

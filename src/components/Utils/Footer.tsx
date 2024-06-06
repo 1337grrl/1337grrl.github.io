@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
                       icon={<FacebookIcon color='primary'/>} 
                       clickable 
                       component="a" 
-                      href={''} 
+                      href={'http://www.facebook.com/musikfestwannsee'} 
                       target="_blank"
                     />
                     <Chip 
@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
                       icon={<InstagramIcon color='primary'/>} 
                       clickable 
                       component="a" 
-                      href={''} 
+                      href={'http://www.instagram.com/musikfestwannsee'} 
                       target="_blank"
                     />
                 </Box>

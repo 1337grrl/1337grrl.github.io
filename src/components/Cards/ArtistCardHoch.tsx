@@ -23,7 +23,8 @@ const ArtistCardHoch: React.FC<ArtistCardProps> = (props) : React.ReactElement =
                     lg: '75%',
                     xs: '85%',
                 },
-                padding: '5%',
+                alignItems: 'center',
+                padding: '2%',
             }}
         >
             <Box sx={{ 
