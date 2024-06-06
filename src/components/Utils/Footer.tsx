@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
                       icon={<FacebookIcon color='primary'/>} 
                       clickable 
                       component="a" 
-                      href={'http://www.facebook.com/musikfestwannsee'} 
+                      href={'https://www.facebook.com/profile.php?id=61558670768402'} 
                       target="_blank"
                     />
                     <Chip 
