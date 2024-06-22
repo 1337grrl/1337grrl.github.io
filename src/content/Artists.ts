@@ -13,7 +13,7 @@ export const ourArtists: ArtistType[] = [
         name: 'Staats- und Domchor BERLIN',
         image: 'Artists/Staats_und_Domchor.png',    
         orientation: 'landscape',
-        description: 'Der Staats-und Domchor Berlin gilt als die älteste musikalische Einrichtung Berlins, welcher heute ca. 250 Knaben- und Männerstimmen angehören. Sie sind in ihrer kulturellen und sozialen Vielfalt Spiegelbild unserer Hauptstadt, singen in vielen Sprachen alte und neue Musik und sind mit ihren Stimmen Kulturbotschafter über Grenzen hinweg.\n\n',
+        description: 'Der Staats- und Domchor Berlin ist ein an der Universität der Künste beheimateter Knaben- und Männerstimmenchor. Er gilt als die älteste musikalische Einrichtung Berlins. Heute singen etwa 300 Knaben und junge Männer in den verschiedenen Chören – von den DoMinis bis zum Konzertchor. Während die Jüngsten mit Kinderliedern und Stimmbildung beginnen, treten die versierten Sänger des Hauptchors in den großen Konzertsälen der Stadt oder im Berliner Dom auf. Für ihre zahlreichen Auftritte erarbeiten sie geistliche und weltliche Chorwerke von der Renaissance bis zur Gegenwart. Die Vermittlung zwischen Alter und Neuer Musik und die Zusammenarbeit mit zeitgenössischen Komponisten ist dem Ensemble ein besonderes Anliegen.\n\n',
         url: 'https://www.udk-berlin.de/universitaet/fakultaet-musik/staats-und-domchor-berlin/',
     },
     {
