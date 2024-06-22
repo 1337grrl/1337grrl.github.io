@@ -44,7 +44,7 @@ const Locations: React.FC = () => {
             alignItems: 'center',
         }}
         >                         
-            <Title title={'Die Konzertorte'} color='primary.dark'/>
+            <Title title={'Die Veranstaltungsorte'} color='primary.dark'/>
             <Grid 
                 sx={{
                     display: 'flex', 
@@ -128,7 +128,7 @@ const Locations: React.FC = () => {
                             border: 0,
                         }}
                     />
-                    <Typography variant='body2' color='primary.dark'>Rundweg zwischen den Konzertorten</Typography>
+                    <Typography variant='body2' color='primary.dark'>Rundweg zwischen den Verstaltungsorten</Typography>
                 </Box>
             </Grid>
         </Grid>

@@ -14,7 +14,7 @@ export const Program: ProgrammCardProps[] = [
         name: 'Der arkadische Traum an den Ufern der Havel', 
         description: 'Ein Spaziergang durch die Wannseer Kulturlandschaft -\n Kammermusik und kunsthistorische Betrachtungen\nDr. Friederike Südmeyer | Kunsthistorikerin\nEleonora Trivella | Barockoboe\nEnrico Toffano | Barockfagott\nMimoe Todo | Cembalo', 
         location: 'Nikolskoe', 
-        date: '21.09. | 16.00 Uhr'
+        date: '21.09. | 16.30 Uhr'
     },
     {
         image: 'Programm/Liederabend.png', 
@@ -32,8 +32,8 @@ export const Program: ProgrammCardProps[] = [
     },
     {
         image: 'Programm/Abschlusskonzert.png', 
-        name: 'Abschlusskonzert', 
-        description: 'Staats- und Domchor Berlin\nLeitung: Kai-Uwe Jirka', 
+        name: 'Wandel der Zeit', 
+        description: 'Abschlusskonzert\nStaats- und Domchor Berlin\nLeitung: Kai-Uwe Jirka', 
         location: 'Nikolskoe', 
         date: '22.09. | 18.00 Uhr'
     },
