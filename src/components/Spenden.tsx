@@ -46,7 +46,7 @@ const Spenden: React.FC = () => {
                     }}
                 >
                     <Typography>
-                        Um das Musikfest Wannsee auf musikalisch höchstem Niveau auch in Zukunft nachhaltig und verlässlich stattfinden lassen können, benötigen wir Ihre Unterstützung.<br/><br/> 
+                        Um das Musikfest Wannsee auf musikalisch höchstem Niveau auch in Zukunft nachhaltig und verlässlich stattfinden lassen zu können, benötigen wir Ihre Unterstützung.<br/><br/> 
                         Jede/r Spender/in, der/die mit Anmeldung über musikfest.wannsee@gmail.com zu einem oder mehreren Konzerten kommt, erhält eine Sitzplatzreservierung und eine arkadische Überraschung.
                     </Typography>
                 </Box>
