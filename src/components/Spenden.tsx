@@ -21,9 +21,9 @@ const Spenden: React.FC = () => {
         >
             <Grid>
                 <Typography variant="h1" display='inline'>F</Typography>                        
-                <Typography variant="h6" display='inline'> örderer & </Typography>
+                <Typography variant="h6" display='inline'>örderer &</Typography>
                 <Typography variant="h1" display='inline'>S</Typography>                        
-                <Typography variant="h6" display='inline'> ponsoren</Typography>
+                <Typography variant="h6" display='inline'>ponsoren</Typography>
             </Grid>
             <Grid
             sx={{ 
