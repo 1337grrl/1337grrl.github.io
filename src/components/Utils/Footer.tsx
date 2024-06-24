@@ -91,6 +91,20 @@ const Footer: React.FC = () => {
             icon={<DownloadIcon color='primary'/>}
           />
         </Box>
+        <Box
+          component="a"
+          href="Plakat_Musikfest_Wannsee_2024.pdf"
+          download="Plakat_Musikfest_Wannsee_2024.pdf"
+          sx={{ textDecoration: 'none' }}
+        >
+          <Chip
+            label={'Plakat "Musikfest Wannsee 2024"'} 
+            sx={{ margin: '10px' }}
+            clickable
+            variant='outlined'
+            icon={<DownloadIcon color='primary'/>}
+          />
+        </Box>
       </Box>
     </Grid>
   );
