@@ -20,6 +20,8 @@ const Spenden: React.FC = () => {
         }}
         >
             <Grid>
+                <Typography variant="h1" display='inline'>E</Typography>                        
+                <Typography variant="h6" display='inline'>intritt, </Typography>
                 <Typography variant="h1" display='inline'>F</Typography>                        
                 <Typography variant="h6" display='inline'>örderer &</Typography>
                 <Typography variant="h1" display='inline'>S</Typography>                        
@@ -46,8 +48,9 @@ const Spenden: React.FC = () => {
                     }}
                 >
                     <Typography>
+                        In diesem Jahr ist der <Typography variant="body2" display='inline'>Eintritt frei</Typography>. Anmeldung über musikfest.wannsee@gmail.com.<br/><br/>
                         Um das Musikfest Wannsee auf musikalisch höchstem Niveau auch in Zukunft nachhaltig und verlässlich stattfinden lassen zu können, benötigen wir Ihre Unterstützung.<br/><br/> 
-                        Jede/r Spender/in, der/die mit Anmeldung über musikfest.wannsee@gmail.com zu einem oder mehreren Konzerten kommt, erhält eine Sitzplatzreservierung und eine arkadische Überraschung.
+                        Jede/r Spender/in mit Anmeldung erhält eine "Arkadische Überraschung".
                     </Typography>
                 </Box>
                 <Box
