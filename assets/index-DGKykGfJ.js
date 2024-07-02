@@ -168,7 +168,9 @@ Johanna Kaldewei | Sopran
 Simon Robinson | Bassbariton
 Thorsten Kaldewei | Klavier`,location:"Andreaskirche",date:"21.09. | 20.00 Uhr"},{image:"Programm/Kantatengottesdienst.png",name:"Der Herr ist mein Hirte",description:`Kantatengottesdienst
 Werke von Telemann, Schubert, Dvorak
-Susanne Langner, Mezzosopran, Kantatenchor Wannsee, Ltg.: Ada Belidis, N.N. Orgel
+Susanne Langner | Mezzosopran
+ Kantatenchor Wannsee | Ltg.: Ada Belidis
+ N.N. | Orgel
 Predigt: Pfarrer Helmut Kulla`,location:"Nikolskoe",date:"22.09. | 15.00 Uhr"},{image:"Programm/Abschlusskonzert.png",name:"Wandel der Zeit",description:`Abschlusskonzert
 Staats- und Domchor Berlin
 Leitung: Kai-Uwe Jirka`,location:"Nikolskoe",date:"22.09. | 18.00 Uhr"}],$k=[{name:"Johanna Kaldewei",image:"Team/JohannaKaldewei.png",description:`Initiatorin
