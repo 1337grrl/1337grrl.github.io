@@ -50,7 +50,15 @@ const Spenden: React.FC = () => {
                     <Typography>
                         In diesem Jahr ist der <Typography variant="body2" display='inline'>Eintritt frei</Typography>. Um Anmeldung wird gebeten unter musikfest.wannsee@gmail.com. Wir freuen uns auf alle Zuhörer:innen!<br/><br/>
                         Um das Musikfest Wannsee auf musikalisch höchstem Niveau auch in Zukunft nachhaltig und verlässlich stattfinden lassen zu können, benötigen wir Ihre Unterstützung.<br/><br/> 
-                        Jede/r Spender/in mit Anmeldung erhält eine "Arkadische Überraschung".
+                        Jede/r Spender/in mit Anmeldung erhält eine "Arkadische Überraschung".<br/><br/>
+                        Wir bedanken uns von Herzen für die Finanzierung der Konzerte am 22. September 2024 bei <br/><br/>
+                        <img
+                            src={'Logos/D+B_Logo.png'} 
+                            style={{
+                                width: '50%', 
+                                height: 'auto',
+                            }}
+                        />
                     </Typography>
                 </Box>
                 <Box
@@ -61,14 +69,16 @@ const Spenden: React.FC = () => {
                         },
                     }}
                 >
-                    <img 
-                        src={'Spendenkonto.png'} 
-                        style={{
-                            alignItems: 'center',
-                            width: '100%', 
-                            height: 'auto',
-                        }}
-                    />
+                    <a href="http://www.db-law.de/" target="_blank">
+                        <img 
+                            src={'Spendenkonto.png'} 
+                            style={{
+                                alignItems: 'center',
+                                width: '100%', 
+                                height: 'auto',
+                            }}
+                        />
+                    </a>
                 </Box>
             </Grid>
         </Grid>

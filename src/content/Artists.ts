@@ -78,6 +78,8 @@ export const ourArtists: ArtistType[] = [
     {
         name: 'Felix Hielscher',
         image: 'Artists/Felix_Hielscher.png',
-        description: 'Felix Hielscher ist freier Organist, Pianist und Chorleiter. Er ist u. a. mit dem Staats- und Domchor, der Sing-Akademie zu Berlin sowie dessen Mädchenchor, oder dem Nilius-Pfunda-Kollektiv zu hören. Die Engagements brachten seine Instrumente an verschiedensten Orten zum Klingen, u. a. an der Volksbühne Berlin, dem Museum „Hamburger Bahnhof“, beim Lyrikfestival in Münster und in der Ev. Marienkirche Berlin. 2022 war er „Artist in Residence“ am Berliner Dom und übernahm dabei die Funktion des Domorganisten samt Konzertverpflichtung. Sein künstlerischer Schwerpunkt liegt in der Erkundung des Raums zwischen Literatur und Improvisation, sowie in interdisziplinären Projekten. Daneben studiert er Skandinavistik und Deutsche Literatur an der Humboldt-Universität zu Berlin.'
+        description: 'Felix Hielscher ist freier Organist, Pianist und Chorleiter.\n'+
+        'Er ist u. a. mit dem Staats- und Domchor, der Sing-Akademie zu Berlin sowie dessen Mädchenchor, oder dem Nilius-Pfunda-Kollektiv zu hören. Die Engagements brachten seine Instrumente an verschiedensten Orten zum Klingen, u. a. an der Volksbühne Berlin, dem Museum „Hamburger Bahnhof“, beim Lyrikfestival in Münster und in der Ev. Marienkirche Berlin. 2022 war er „Artist in Residence“ am Berliner Dom und übernahm dabei die Funktion des Domorganisten samt Konzertverpflichtung.\n'+
+        'Sein künstlerischer Schwerpunkt liegt in der Erkundung des Raums zwischen Literatur und Improvisation, sowie in interdisziplinären Projekten. Daneben studiert er Skandinavistik und Deutsche Literatur an der Humboldt-Universität zu Berlin.'
     }
 ];

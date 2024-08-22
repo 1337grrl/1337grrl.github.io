@@ -33,7 +33,7 @@ export const Program: ProgrammCardProps[] = [
     {
         image: 'Programm/Abschlusskonzert.png', 
         name: 'Wandel der Zeit', 
-        description: 'Abschlusskonzert\nStaats- und Domchor Berlin\nLeitung: Kai-Uwe Jirka', 
+        description: 'Abschlusskonzert\nStaats- und Domchor Berlin\nFelix Hielscher | Orgel\nLeitung: Kai-Uwe Jirka', 
         location: 'Nikolskoe', 
         date: '22.09. | 18.00 Uhr'
     },
