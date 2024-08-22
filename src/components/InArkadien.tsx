@@ -28,7 +28,7 @@ const InArkadien: React.FC<PropsWithChildren<ArkadienProps>> = (props) => {
                 }}
             >
                 <img
-                    src='AuchArkadien.png'
+                    src='Auch_in_Arkadien.png'
                     style={{width: '100%', height: 'auto'}}
                 />
             </Box>

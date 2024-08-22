@@ -1,6 +1,6 @@
 import { Grid, styled } from "@mui/material";
 
-const logo = 'Logos/Logo_Medium_Musikfest_Wannsee_2024_ohne_Hintergrund.png';
+const logo = 'Logos/Logo_mit_Platzreservierung.png';
 
 export const ResponsiveImg = styled('img')({
     maxWidth: '100%',

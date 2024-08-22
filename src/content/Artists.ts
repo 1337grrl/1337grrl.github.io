@@ -72,6 +72,7 @@ export const ourArtists: ArtistType[] = [
     {
         name: 'Kantatenchor Wannsee',
         image: 'Artists/Kantatenchor_Wannsee.png',
+        orientation: 'landscape',
         description: 'Die Geschichte des „Kantatenchores Wannsee“ begann 1972. Mehr als dreißig Jahre lang prägte der Kirchemusiker Georg Dieterich das Profil des Chores mit Aufführungen vor allem von Bach-Kantaten sowie Messen von Mozart und Haydn. Viele Konzerte wurden gemeinsam mit dem sich entwickelnden Jugendchor „Camerata Wannsee“ bestritten. Als Georg Dieterich 2006 in den Ruhestand ging, wurde die Chorarbeit nahtlos und für fast zehn Jahre von Brigitte Foerster-Wieczorek weitergeführt. In ihrer Schaffensperiode fand eine inhaltliche Wendung statt, denn nun wurde Literatur vom Barock bis zur Moderne gesungen. Auf Brigitte Foerster-Wiczorek folgte Ada Belidis, die den Chor bis heute leitet. Unter ihrem Dirigat hat der Chor Werke von Mendelssohn, Brahms, Schubert, Beethoven, Saint-Saëns, Mozart und Bach aufgeführt. Der Kantatenchor Wannsee besteht aus ca. 50 Sängerinnen und Sängern in vier Stimmen, die Auftritte finden hauptsächlich in den drei evangelischen Kirchen Wannsees statt, der Andreaskirche, der Kirche am Stölpchensee und in St. Peter und Paul auf Nikolskoe.',
         url: 'https://wannseebote.ekbo.de/gruppen/choere/kantatenchor'
     },
