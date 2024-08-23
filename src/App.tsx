@@ -10,9 +10,10 @@ import { Program } from './content/Programm';
 import { ourTeam } from './content/Team';
 import Logo from './components/Logo';
 import Locations from './components/Locations';
-import Spenden from './components/Spenden';
+import Eintritt from './components/Eintritt';
 import Motto from './components/Motto';
 import InArkadien from './components/InArkadien';
+import Sponsoren from './components/Sponsoren';
 
 const program = Program;
 const artists = ourArtists;
@@ -31,7 +32,8 @@ function App() {
       <Programm programItems={program}/>
       <InArkadien/>
       <Artists artists={artists}/>
-      <Spenden/>
+      <Sponsoren/>
+      <Eintritt/>
       <ImageSlide images={kirchenausschnitte}/>
       <Team teamMembers={team}/>
       <Footer/>
