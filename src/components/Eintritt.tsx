@@ -34,7 +34,7 @@ const Eintritt: React.FC = () => {
                     sx={{ 
                         width: {
                             lg: '50%',
-                            xs: '100%',
+                            xs: '95%',
                         },           
 
                     }}
@@ -54,7 +54,7 @@ const Eintritt: React.FC = () => {
                     sx={{
                         width: {
                             lg: '45%',
-                            xs: '100%',
+                            xs: '95%',
                         },
                     }}
                 >
