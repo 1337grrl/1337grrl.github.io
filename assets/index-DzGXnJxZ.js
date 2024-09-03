@@ -165,7 +165,8 @@ Eleonora Trivella | Barockoboe
 Enrico Toffano | Barockfagott
 Mimoe Todo | Cembalo`,location:"Nikolskoe",date:"21.09. | 16.30 Uhr"},{image:"Programm/Liederabend.png",name:"Auch ich in Arkadien",description:`Liederabend und Lesung
 Sehnsucht nach Italien im 18. und 19. Jahrhundert
-Lieder, Duette und Rezitationen nach Texten von u.a. J.W. von Goethe, F. Schiller und J. von Eichendorff
+Lieder, Duette und Rezitationen nach Texten von u.a.
+J.W. von Goethe, F. Schiller und J. von Eichendorff
 Sabine Falkenberg | Lesung
 Johanna Kaldewei | Sopran
 Simon Robinson | Bassbariton
