@@ -19,7 +19,7 @@ export const Program: ProgrammCardProps[] = [
     {
         image: 'Programm/Liederabend.png', 
         name: 'Auch ich in Arkadien', 
-        description: 'Liederabend und Lesung\nBriefe, Texte und Lieder nach Gedichten von J.W. von Goethe\nSabine Falkenberg | Lesung\nJohanna Kaldewei | Sopran\nSimon Robinson | Bassbariton\nThorsten Kaldewei | Klavier', 
+        description: 'Liederabend und Lesung\nSehnsucht nach Italien im 18. und 19. Jahrhundert\nLieder, Duette und Rezitationen\nSabine Falkenberg | Lesung\nJohanna Kaldewei | Sopran\nSimon Robinson | Bassbariton\nThorsten Kaldewei | Klavier', 
         location: 'Andreaskirche', 
         date: '21.09. | 20.00 Uhr'
     },
