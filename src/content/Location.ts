@@ -1,5 +1,5 @@
 export const churches = [
-    'Locations/Stölpchenseekirche.png', 
+    'Locations/Stoelpchenseekirche.png', 
     'Locations/St._Peter_und_Paul.png', 
     'Locations/Andreas_Kirche.png',
 ];

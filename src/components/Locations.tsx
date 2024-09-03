@@ -14,7 +14,7 @@ type LocationType= {
 const locations: LocationType[] = [
     {
         name: 'Kirche am Stölpchensee',
-        image: 'Locations/Stölpchenseekirche.png',
+        image: 'Locations/Stoelpchenseekirche.png',
         description: 'Die Kirche befindet sich im alten Dorfkern des Dorfes Stolpe. Sie wurde 1859 geweiht. Der Architekt der Kirche war F. A. Stüler. In ihrem Turm befindet sich ein mechanisches Glockenspiel, das zu jeder vollen Stunde einen von drei Chorälen passend zum Kichenjahr spielt.\n\n',
         anfahrt: 'Bus 118, 318 | Haltestelle Wilhelmplatz | 140m Fußweg',
         address: 'Wilhelmplatz 1, 14109 Berlin',

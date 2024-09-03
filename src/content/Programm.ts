@@ -26,14 +26,14 @@ export const Program: ProgrammCardProps[] = [
     {
         image: 'Programm/Kantatengottesdienst.png', 
         name: 'Der Herr ist mein Hirte', 
-        description: 'Kantatengottesdienst\nWerke von Telemann, Schubert, Dvorak\nSusanne Langner | Mezzosopran\n Kantatenchor Wannsee | Ltg.: Ada Belidis\nFelix Hielscher | Orgel\nPredigt: Pfarrer Helmut Kulla', 
+        description: 'Kantatengottesdienst\nWerke von Telemann, Schubert, Dvorak\nSusanne Langner | Mezzosopran\nIrina Granovskaja | Violine\nKantatenchor Wannsee | Ltg.: Ada Belidis\nFelix Hielscher | Orgel\nPredigt: Pfarrer Helmut Kulla', 
         location: 'Nikolskoe', 
         date: '22.09. | 15.00 Uhr'
     },
     {
         image: 'Programm/Abschlusskonzert.png', 
         name: 'Wandel der Zeit', 
-        description: 'Abschlusskonzert\nStaats- und Domchor Berlin\nFelix Hielscher | Orgel\nLeitung: Kai-Uwe Jirka', 
+        description: 'Abschlusskonzert\nStaats- und Domchor Berlin\nFriederike Roth | Klarinette\nFelix Hielscher | Orgel\nLeitung: Kai-Uwe Jirka', 
         location: 'Nikolskoe', 
         date: '22.09. | 18.00 Uhr'
     },

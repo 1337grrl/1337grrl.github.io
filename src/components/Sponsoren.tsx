@@ -99,7 +99,60 @@ const Sponsoren: React.FC = () => {
                     </a>
                     <Typography sx={{ textAlign: 'left', width: '100%' }}>
                     <br/><br/><br/>Mehr Informationen unter <a href="https://freundeskreis-nikolskoe.de/" target="_blank">freundeskreis-nikolskoe.de</a>
+                    <br/><br/><br/>
                     </Typography>
+                </Box>
+            </Grid>
+            <Grid
+            sx={{ 
+                display: 'flex',       
+                justifyContent: 'center',
+                alignItems: 'center',
+                flexDirection: {
+                    xs: 'column',
+                },
+            }}>
+            <Typography>
+            Wir bedanken uns außerdem von Herzen bei<br/><br/>  
+            </Typography>
+                <Box 
+                    component='section'
+                    sx={{ 
+                        width: {
+                            lg: '50%',
+                            xs: '100%',
+                        }, 
+                        display: 'flex',       
+                        justifyContent: 'space-evenly', 
+                        alignItems: 'center',
+                        flexDirection: {
+                            lg: 'row',
+                            xs: 'column',
+                        },          
+
+                    }}
+                >
+                    <Box>
+                        <img 
+                            src={'Logos/Logo_Foerderverein_Ev_Kirchengemeinde_Wannsee.png'} 
+                            style={{
+                                alignItems: 'center',
+                                width: '70%', 
+                                height: 'auto',
+                            }}
+                        />
+                    </Box>
+                    <Box>
+                        <img 
+                            src={'Logos/Logo_Stiftung_Ev_Kirchengemeinde_Wannsee.png'} 
+                            style={{
+                                    alignItems: 'center',
+                                    width: '100%', 
+                                    height: 'auto',
+                                }
+                            }
+                        />
+                    </Box>
                 </Box>
             </Grid>
         </Grid>

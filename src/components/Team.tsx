@@ -53,9 +53,9 @@ const Team: React.FC<TeamProps> = (props) => {
                         }}
                     >
                         <img
-                            src='Locations/Logo_Evangelische_Kirche_Gemeinde_Wannsee.png'
+                            src='Logos/Logo_Ev_Kirche.png'
                             style={{
-                                width: '100%', 
+                                width: '90%', 
                                 height: 'auto'
                             }}
                         />
@@ -73,7 +73,7 @@ const Team: React.FC<TeamProps> = (props) => {
                         <img
                             src='Locations/Logo_Nikolskoe.png'
                             style={{
-                                width: '100%', 
+                                width: '90%', 
                                 height: 'auto'
                             }}
                         />
