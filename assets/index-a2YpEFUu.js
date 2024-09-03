@@ -163,7 +163,7 @@ Musikalische Ltg: Birgit Schnurpfeil`,location:"Stölpchenseekirche",date:"20.09
 Dr. Friederike Südmeyer | Kunsthistorikerin
 Eleonora Trivella | Barockoboe
 Enrico Toffano | Barockfagott
-Mimoe Todo | Cembalo`,location:"Nikolskoe",date:"21.09. | 16.30 Uhr"},{image:"Programm/Liederabend.png",name:"Auch ich in Arkadien",description:`Liederabend
+Mimoe Todo | Cembalo`,location:"Nikolskoe",date:"21.09. | 16.30 Uhr"},{image:"Programm/Liederabend.png",name:"Auch ich in Arkadien",description:`Liederabend und Lesung
 Briefe, Texte und Lieder nach Gedichten von J.W. von Goethe
 Sabine Falkenberg | Lesung
 Johanna Kaldewei | Sopran
