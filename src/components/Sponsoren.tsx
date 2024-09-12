@@ -1,4 +1,3 @@
-import { FormatAlignJustify } from "@mui/icons-material";
 import { Box, Grid, Typography } from "@mui/material";
 
 const Sponsoren: React.FC = () => {
