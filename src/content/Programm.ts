@@ -26,7 +26,7 @@ export const Program: ProgrammCardProps[] = [
     {
         image: 'Programm/Kantatengottesdienst.png', 
         name: 'Der Herr ist mein Hirte', 
-        description: 'Kantatengottesdienst\nWerke von Telemann, Schubert, Dvorak\nSusanne Langner | Mezzosopran\nIrina Granovskaja | Violine\nKantatenchor Wannsee | Ltg.: Ada Belidis\nFelix Hielscher | Orgel\nPredigt: Pfarrer Helmut Kulla', 
+        description: 'Kantatengottesdienst\nWerke von Bach, Schubert, Dvorak\nSusanne Langner | Mezzosopran\nIrina Granovskaja | Violine\nKantatenchor Wannsee | Ltg.: Ada Belidis\nFelix Hielscher | Orgel\nPredigt: Pfarrer Helmut Kulla', 
         location: 'Nikolskoe', 
         date: '22.09. | 15.00 Uhr'
     },

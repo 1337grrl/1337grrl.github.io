@@ -1,3 +1,4 @@
+import { FormatAlignJustify } from "@mui/icons-material";
 import { Box, Grid, Typography } from "@mui/material";
 
 const Sponsoren: React.FC = () => {
@@ -59,7 +60,7 @@ const Sponsoren: React.FC = () => {
                         />
                     </a>
                     <Typography>
-                    <br/><br/>Mehr Informationen unter <a href="http://www.db-law.de/" target="_blank">www.db-law.de</a>
+                    <br/><br/>Mehr Informationen unter <a href="http://www.db-law.de/" target="_blank">www.db-law.de</a><br/><br/>
                     </Typography>
                 </Box>
                 <Box 
@@ -123,8 +124,8 @@ const Sponsoren: React.FC = () => {
                             xs: '100%',
                         }, 
                         display: 'flex',       
-                        justifyContent: 'space-evenly', 
                         alignItems: 'center',
+                        justifyContent: 'center',
                         flexDirection: {
                             lg: 'row',
                             xs: 'column',
@@ -132,20 +133,37 @@ const Sponsoren: React.FC = () => {
 
                     }}
                 >
-                    <Box>
+                    <Box style={
+                                {
+                                    display: 'flex', 
+                                    justifyContent: 'center',
+                                }
+                            }
+                        >
                         <img 
                             src={'Logos/Logo_Foerderverein_Ev_Kirchengemeinde_Wannsee.png'} 
-                            style={{
-                                alignItems: 'center',
-                                width: '70%', 
-                                height: 'auto',
-                            }}
+                            style={
+                                {
+                                    display: 'flex', 
+                                    alignItems: 'center',
+                                    width: '50%', 
+                                    height: 'auto',
+                                }
+                            }
                         />
                     </Box>
-                    <Box>
+                    <Box style={
+                                {
+                                    display: 'flex',
+                                    alignItems: 'center', 
+                                    justifyContent: 'center',
+                                }
+                            }>
                         <img 
                             src={'Logos/Logo_Stiftung_Ev_Kirchengemeinde_Wannsee.png'} 
-                            style={{
+                            style={
+                                {
+                                    display: 'flex', 
                                     alignItems: 'center',
                                     width: '100%', 
                                     height: 'auto',
