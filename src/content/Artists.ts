@@ -83,7 +83,7 @@ export const ourArtists: ArtistType[] = [
     },
     {
         name: 'Irina Granovskaya',
-        image: 'Locations/nikolskoe_fruehling_box.png',
+        image: 'Artists/Irina_Granovskaya.png',
         description: 'Irina Granovskaya, geboren in Volgograd (Russland) begann ihr Violinspiel mit sieben Jahren. Während ihrer Schulzeit wurde sie Preisträgerin bei zahlreichen nationalen Wettbewerben, sowie Jugend Musiziert in Darmstadt (2001) und trat mehrmals solistisch mit dem Kammerorchester ihrer Heimatstadt auf. Nach dem Abitur in Kassel studierte sie in Würzburg und Dresden und schloss ihr Aufbaustudium an der Hochschule für Musik Hanns Eisler Berlin bei Antje Weithaas ab. Sie widmet sich leidenschaftlich der historischen Aufführungspraxis und absolvierte 2015 ihr Masterstudium mit Auszeichnung an der UdK Berlin bei Irmgard Huntgeburth. Sie besuchte mehrere Meisterkurse bei Petra Müllejans, Gottfried von der Goltz, Andrew Manze, Bernhard Forck, Georg Kallweit, Anna-Katharina Schreiber, Leila Schayegh, Nadja Zwiener. Als Orchestermusikerin ist sie ein regelmäßiger Gast auf Konzerten und Tourneen (Europa, Asien) mit dem Rundfunksinfonieorchester Berlin (RSB), Münchner Rundfunkorchester, Mahler Chamber Orchestra, MDR Leipzig, Camerata Bern, Würzburger Philharmoniker. Zwischen 2011 bis 2015 hatte sie einen Zeitvertrag in den 1.Violinen ( 50% ) im Konzerthausorchester Berlin inne. Sie ist regelmäßige Aushilfe bei Akademie für Alte Musik Berlin (Akamus), Lautten Compagney Berlin , Freiburger Barockorchester (FBO) und B ́Rock (Belgien). Rege solistische und kammermusikalische Tätigkeit führen sie quer durch Deutschland und ins Ausland.'
     },
     {
