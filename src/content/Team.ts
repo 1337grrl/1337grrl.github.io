@@ -7,14 +7,19 @@ export const ourTeam: TeamMemberType[] = [
         description: 'Initiatorin\nCo-Creator\nKünstlerische Leitung\nVeranstaltungsmanagement',
     },
     {
+        name: 'Alice von Podbielski-Stellpflug', 
+        image: 'Team/AliceStellpflug.png',
+        description: 'Veranstaltungsmanagement\nFundraising\nPR',
+    },
+    {
         name: 'Lena Heringklee', 
         image: 'Team/LenaHeringklee.png',
-        description: 'Co-Creator\nPR + Social Media\nFundraising',
+        description: 'Co-Creator\nPR + Social Media',
     },
     {
         name: 'Thorsten Kaldewei', 
         image: 'Team/ThorstenKaldewei.png',
-        description: 'Co-Creator\nProgramm Künstlerbetreuung ',
+        description: 'Co-Creator\nProgrammgestaltung',
     },
     {
         name: 'Silja Rheingans', 
