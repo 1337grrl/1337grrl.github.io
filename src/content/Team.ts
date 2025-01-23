@@ -9,7 +9,7 @@ export const ourTeam: TeamMemberType[] = [
     {
         name: 'Alice von Podbielski-Stellpflug', 
         image: 'Team/AliceStellpflug.png',
-        description: 'Veranstaltungsmanagement\nFundraising\nPR',
+        description: 'Co-Creator\nVeranstaltungsmanagement\nFundraising\nPR',
     },
     {
         name: 'Lena Heringklee', 
