@@ -183,7 +183,8 @@ Felix Hielscher | Orgel
 Leitung: Kai-Uwe Jirka`,location:"Nikolskoe",date:"22.09. | 18.00 Uhr"}],jw=[{name:"Johanna Kaldewei",image:"Team/JohannaKaldewei.png",description:`Initiatorin
 Co-Creator
 Künstlerische Leitung
-Veranstaltungsmanagement`},{name:"Alice von Podbielski-Stellpflug",image:"Team/AliceStellpflug.png",description:`Veranstaltungsmanagement
+Veranstaltungsmanagement`},{name:"Alice von Podbielski-Stellpflug",image:"Team/AliceStellpflug.png",description:`Co-Creator
+Veranstaltungsmanagement
 Fundraising
 PR`},{name:"Lena Heringklee",image:"Team/LenaHeringklee.png",description:`Co-Creator
 PR + Social Media`},{name:"Thorsten Kaldewei",image:"Team/ThorstenKaldewei.png",description:`Co-Creator
